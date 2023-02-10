@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- link a bootstrap -->
+  <link rel="stylesheet" href="./libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <!-- link a css -->
+  <link rel="stylesheet" href="./static/bento/css/styles.css">
+  <title>Bento</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-danger" id="navbar">
+    <div class="container-fluid">
+
+      <a class="navbar-brand text-white" href="#">inicio</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="#index__section__noticias">noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="#index__section__libros">libros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="#index__section__articulos">articulos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="#index__section__imagenes">imagenes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="index__section__videos">videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="#index__section__testimonios">testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text" href="#index__section__contacto">contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- uprow (sticky item) -->
+  <section>
+    <a href="#navbar" class="angle-double-up" id="uprow">
+      <img src="./static/bento/assets/icons/uprow.png" alt="whatever">
+    </a>
+  </section>
+
+<!-- CONTENIDO QUE CAMBIA -->
+
+  <main>
+      
+    <!-- header con destacadas -->
+    
+    <section class="main__section__container" id="index__section__principal">
+      <!-- carousel de bootstrap -->
+      <div id="carouselExampleCaptions" class="carousel slide container-fluid">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="index__section__principal__carousel__item__title display-2">First slide label</h5>
+              <p class="index__section__principal__carousel__item__subtitle">Some representative placeholder content for the
+                first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="index__section__principal__carousel__item__title display-2">second slide label</h5>
+              <p class="index__section__principal__carousel__item__subtitle">Some representative placeholder content for the
+                first
+                slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="index__section__principal__carousel__item__title display-2">third slide label</h5>
+              <p class="index__section__principal__carousel__item__subtitle">Some representative placeholder content for the
+                first
+                slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- comentario sobre el slider para el autor -->
+      <div class="comentario__para__tutor">
+        <p>El slider se distorsiona muy feo con el responsive</p>
+      </div>
+
+    <!-- noticias -->
+
+    <section class="main__section__container" id="index__section__noticias">
+
+      <h2>seccion de noticias</h2>
+      <!-- slider -->
+      <img src="static/bento/assets/img/defect.png" alt="">
+      <h3>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem 
+        <!-- ver más enlazado al item -->
+        <a href="#!"> ver más...</a>.</p>
+
+      <!-- flechas para desplazar entre las noticias del slider -->
+      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
+      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+
+      <a href="./templates/noticias.html"> más noticias </a>.</p>
+
+    </section>
+
+    <!-- libros -->
+    
+    <section class="main__section__container"  id="index__section__libros">
+      <!-- slider -->
+      <h2>seccion de libros</h2>
+      <h3>titulo del libro</h3>
+      <img src="static/bento/assets/img/defect.png" alt="whatever">
+      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem 
+        <!-- ver más enlazado al item -->
+        <a href="#!"> ver más...</a>.</p>
+      <!-- flechas para desplazar entre los libros del slider -->
+      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
+      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+
+      <a href="./templates/libros.html"> ver más libros</a>
+
+    
+    </section>
+
+    <!-- testimonios -->
+    
+    <section class="main__section__container" id="index__section__testimonios">
+    
+    <h2>seccion de testimonios</h2>
+
+      <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur enim, quas accusantium commodi aut, distinctio officia cum temporibus neque labore atque error ducimus culpa provident ullam dolorum quae. Aspernatur reprehenderit tenetur mollitia enim autem deleniti voluptas qui velit. Deleniti quisquam molestias numquam quidem quia sit placeat voluptatem dicta error vero ullam, molestiae et, maxime nihil, in quaerat asperiores. Porro, beatae quas laudantium labore sint officia pariatur reprehenderit officiis in!</p>
+      <!-- flechas para desplazar entre los testimonios del slider -->
+      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
+      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+
+      <a href="./templates/testimonios.html"> más testimonios </a>.</p>
+    
+    </section>
+
+    <!-- imagenes -->
+    
+    <section class="main__section__container"  id="index__section__imagenes">
+      <!-- slider -->
+      <h2>seccion de imagenes</h2>
+      <img src="static/bento/assets/img/defect.png" alt="whatever">
+      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem <a
+          href="#!"> ver más...</a>.</p>
+      <!-- flechas para desplazar entre las imagenes del slider -->
+      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
+      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+
+      <a href="./templates/imagenes.html"> más imagenes </a>.</p>
+    
+    </section>
+
+    <!-- articulos -->
+    
+    <section class="main__section__container" id="index__section__articulos">
+      <!-- slider con articulos -->
+      <h2>seccion de articulos</h2>
+      <h3>titulo: Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+      <img src="static/bento/assets/img/defect.png" alt="whatever">
+      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem <a
+          href="#!"> ver más...</a>.</p>
+
+      <!-- flechas para desplazar entre los articulos del slider -->
+      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
+      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+
+      <a href="./templates/articulos.html"> más articulos </a>.</p>
+
+    
+    </section>
+
+    <!-- videos -->
+
+  <section class="main__section__container" id="index__section__videos">
+    <!-- slider con videos -->
+    <h2>seccion de videos</h2>
+    
+    <video width="560" height="315" src="./static/bento/assets/mp4/entierro.mp4" controls></video>
+
+    <h3>titulo: Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+    <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem <a
+        href="#!"> ver más...</a>.</p>
+
+    <!-- flechas para desplazar entre los videos del slider -->
+    <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
+    <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+
+
+
+    <br>
+
+    <!-- prueba con Iframe -->
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/v-WiG5o5nQ0" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    <a href="./templates/videos.html"> más videos </a>.</p>
+
+  </section>
+
+    <!-- contacto -->
+
+    <section class="main__section__container" id="index__section__contacto">
+
+      <h2>seccion de contacto</h2>
+      <form action="">
+        <input type="text" placeholder="nombre y apellido">
+        <br>
+        <input type="email" placeholder="correo electrónico">
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="restablecer">
+
+
+      </form>
+
+
+    
+    
+    </section>
+  </main>
+
+<!-- end CONTENIDO QUE CAMBIA  -->
+
+<script src="./libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Footer -->
+<footer class="bg-danger text-center pinkwhite-text">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+
+</html>
