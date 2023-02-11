@@ -19,7 +19,7 @@
   <nav class="navbar navbar-expand-lg bg-danger" id="navbar">
     <div class="container-fluid">
 
-      <a class="navbar-brand text-white" href="#">inicio</a>
+      <a class="navbar-brand text-white navbar__item" href="#">inicio</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,25 +31,25 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="#index__section__noticias">noticias</a>
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__noticias">noticias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="#index__section__libros">libros</a>
+            <a class="nav-link pinkwhite-text  navbar__item" href="#index__section__libros">libros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="#index__section__articulos">articulos</a>
+            <a class="nav-link pinkwhite-text  navbar__item" href="#index__section__articulos">articulos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="#index__section__imagenes">imagenes</a>
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__imagenes">imagenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="index__section__videos">videos</a>
+            <a class="nav-link pinkwhite-text navbar__item" href="index__section__videos">videos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="#index__section__testimonios">testimonios</a>
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__testimonios">testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text" href="#index__section__contacto">contacto</a>
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__contacto">contacto</a>
           </li>
         </ul>
       </div>
@@ -80,7 +80,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect.png"
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect__img__slider__principal.jpg"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="index__section__principal__carousel__item__title display-2">First slide label</h5>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect.png"
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect__img__slider__principal.jpg"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="index__section__principal__carousel__item__title display-2">second slide label</h5>
@@ -99,7 +99,7 @@
             </div>
           </div>
           <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect.png"
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect__img__slider__principal.jpg"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="index__section__principal__carousel__item__title display-2">third slide label</h5>
@@ -120,28 +120,33 @@
       </div>
     </section>
 
-    <!-- comentario sobre el slider para el autor -->
-      <div class="comentario__para__tutor">
-        <p>El slider se distorsiona muy feo con el responsive</p>
-      </div>
-
     <!-- noticias -->
+
+      <!-- hice lo que pude con esta sección, pero aún falta que pueda moverse con más de dos elementos -->
 
     <section class="main__section__container" id="index__section__noticias">
 
-      <h2>seccion de noticias</h2>
-      <!-- slider -->
-      <img src="static/bento/assets/img/defect.png" alt="">
-      <h3>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem 
-        <!-- ver más enlazado al item -->
-        <a href="#!"> ver más...</a>.</p>
+      <h2 class="display-2 text-center">seccion de noticias</h2>
 
-      <!-- flechas para desplazar entre las noticias del slider -->
-      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
-      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
-
-      <a href="./templates/noticias.html"> más noticias </a>.</p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="">
+              <h3  class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </section>
 

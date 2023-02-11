@@ -10,6 +10,10 @@
   justify-content: center;
 }
 
+.navbar__item:hover{
+color: darkgoldenrod;
+}
+
 .pinkwhite-text {
   color: rgb(249, 202, 202);
 }
@@ -24,10 +28,6 @@
 .main__section__container {
   margin: auto;
   padding: auto;
-}
-
-.main__section__container :nth-child(even) {
-  background-color: rgba(220, 220, 220, 0.453);
 }
 
 .index__section__principal__carousel__item__img {
