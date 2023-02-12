@@ -69,9 +69,9 @@
       
     <!-- header con destacadas -->
     
-    <section class="main__section__container" id="index__section__principal">
+    <section class="index__section__principal" id="index__section__principal">
       <!-- carousel de bootstrap -->
-      <div id="carouselExampleCaptions" class="carousel slide container-fluid">
+      <div id="carouselExampleCaptions" class="index__section__principal__carousel carousel slide container-fluid">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -124,7 +124,7 @@
 
       <!-- hice lo que pude con esta sección, pero aún falta que pueda moverse con más de dos elementos -->
 
-    <section class="main__section__container" id="index__section__noticias">
+    <section class="index__section__noticias" id="index__section__noticias">
 
       <h2 class="display-2 text-center">seccion de noticias</h2>
 
@@ -132,14 +132,14 @@
         <div class="row">
           <div class="col">
             <div class="index__section__noticias__item">
-              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="">
+              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="defect__img__noticias">
               <h3  class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
               <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum natus eius quod... <a href="#">ver más</a></sub>
             </div>
           </div>
           <div class="col">
             <div class="index__section__noticias__item">
-              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="">
+              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="defect__img__noticias">
               <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
               <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
                 natus eius quod... <a href="#">ver más</a></sub>
@@ -152,124 +152,171 @@
 
     <!-- libros -->
     
-    <section class="main__section__container"  id="index__section__libros">
+    <section class="index__section__libros"  id="index__section__libros">
       <!-- slider -->
-      <h2>seccion de libros</h2>
-      <h3>titulo del libro</h3>
-      <img src="static/bento/assets/img/defect.png" alt="whatever">
-      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem 
-        <!-- ver más enlazado al item -->
-        <a href="#!"> ver más...</a>.</p>
-      <!-- flechas para desplazar entre los libros del slider -->
-      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
-      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+      <h2 class="display-2 text-center">seccion de libros</h2>
 
-      <a href="./templates/libros.html"> ver más libros</a>
+      <div class="index__section__libros__grid container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="index__section__libros__grid__item">
+              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/defect_img__libros.png" alt="defect_img__libros">
+              <h3 class="index__section__libros__grid__item__titulo display-6">titulo del libro: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+  Eum natus eius... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__libros__grid__item">
+              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/defect_img__libros.png" alt="defect_img__libros">
+              <h3 class="index__section__libros__grid__item__titulo display-6">titulo del libro: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Eum natus eius... <a href="#">ver más</a></sub>
+            </div>            
+          </div>
+          <div class="col">
+            <div class="index__section__libros__grid__item">
+              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/defect_img__libros.png" alt="defect_img__libros">
+              <h3 class="index__section__libros__grid__item__titulo display-6">titulo del libro: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Eum natus eius... <a href="#">ver más</a></sub>
+            </div>
+            
+          </div>
+        </div>
+      </div>
 
-    
     </section>
 
     <!-- testimonios -->
     
-    <section class="main__section__container" id="index__section__testimonios">
+    <section class="index__section__testimonios" id="index__section__testimonios">
     
-    <h2>seccion de testimonios</h2>
+    <h2 class="display-2 text-center">seccion de testimonios</h2>
 
-      <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur enim, quas accusantium commodi aut, distinctio officia cum temporibus neque labore atque error ducimus culpa provident ullam dolorum quae. Aspernatur reprehenderit tenetur mollitia enim autem deleniti voluptas qui velit. Deleniti quisquam molestias numquam quidem quia sit placeat voluptatem dicta error vero ullam, molestiae et, maxime nihil, in quaerat asperiores. Porro, beatae quas laudantium labore sint officia pariatur reprehenderit officiis in!</p>
-      <!-- flechas para desplazar entre los testimonios del slider -->
-      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
-      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
-
-      <a href="./templates/testimonios.html"> más testimonios </a>.</p>
+    <div class="index__section__testimonios__container center">
+      <h3 class="index__section__testimonios__container__title display-5">titulo del testimonio: Lorem ipsum dolor sit amet.</h3>
+      <p class="index__section__testimonios__container__text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima quae saepe nobis praesentium tempora, minus ipsa modi dicta asperiores dolorem placeat impedit maiores consectetur temporibus laborum ipsam provident atque iure ad sit deserunt vel eligendi dignissimos? Delectus doloribus obcaecati mollitia quidem fugit est enim sunt libero. Qui temporibus laborum optio eveniet esse. Facere quidem officiis distinctio, recusandae iusto hic quasi odit ea quae molestiae dignissimos. Accusantium accusamus cupiditate necessitatibus labore. Modi, quis dolorem error magni dignissimos quo cupiditate tempora inventore tenetur quibusdam, doloremque explicabo mollitia accusantium consectetur similique aperiam minus corporis fugit ex esse itaque minima cumque maiores. Earum ea fuga sequi. Nobis quod vero eaque a expedita? Nostrum, hic ipsum? Minus exercitationem soluta quisquam unde, voluptates, qui repellat, at voluptatum assumenda nobis autem! Veritatis, minima eos officiis modi earum nam tenetur dolorem quas sint aliquam eligendi sit maiores assumenda nesciunt consequuntur! Blanditiis hic dignissimos fuga nulla, natus aperiam reiciendis omnis voluptas minima nobis eaque aliquid repellendus vero. Vitae eius itaque dicta fugit consectetur mollitia nostrum cumque obcaecati. Sit tempora, perspiciatis iste repellat laboriosam quam nihil veritatis assumenda molestiae ducimus atque quod ipsum perferendis non maiores adipisci iusto ea reiciendis. Iusto nam neque deleniti fuga laborum nostrum ex in! Excepturi tempora odit voluptatibus neque voluptas consectetur consequatur, possimus aut delectus. Rerum iste earum nihil! Dolorum sequi reprehenderit doloremque blanditiis pariatur exercitationem, dicta natus enim repellat quibusdam labore corporis id corrupti iusto? Debitis ab quisquam doloribus nemo earum ipsam facere accusamus corrupti a ipsa cum delectus et molestias aut, velit nulla modi dicta adipisci quo praesentium rem obcaecati. Atque, dolor mollitia obcaecati rerum facilis commodi fugiat aut maxime earum natus. Minima dolor quis nostrum nesciunt! Odio inventore vel praesentium explicabo beatae libero consectetur error nostrum, eius nisi aut quam porro fugit exercitationem hic alias consequuntur in quis quaerat dolor! Autem quaerat dicta distinctio fugit cumque sequi? Id minima consectetur ducimus? Suscipit aspernatur voluptatum nihil corrupti animi corporis temporibus odio numquam officia cumque ea mollitia qui eos, maiores iure, placeat id molestiae totam ad quae natus quisquam delectus perspiciatis illum. Eaque tempore vel vero doloribus earum magni optio accusantium iste aliquam!</p>
+      <sub class="index__section__testimonios__container__date lead"> <i>where/mm/yy</i> </sub>
+    </div>
     
     </section>
 
     <!-- imagenes -->
     
-    <section class="main__section__container"  id="index__section__imagenes">
-      <!-- slider -->
-      <h2>seccion de imagenes</h2>
-      <img src="static/bento/assets/img/defect.png" alt="whatever">
-      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem <a
-          href="#!"> ver más...</a>.</p>
-      <!-- flechas para desplazar entre las imagenes del slider -->
-      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
-      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+    <section class="index__section__imagenes"  id="index__section__imagenes">
 
-      <a href="./templates/imagenes.html"> más imagenes </a>.</p>
+    <h2 class="display-2 text-center">seccion de imagenes</h2>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png" alt="">
+          </div>
+          <div class="col index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+              alt="">
+          </div>
+          <div class="col index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+              alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+              alt="">
+          </div>
+          <div class="col index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+              alt="">
+          </div>
+          <div class="col index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+      
     
     </section>
 
     <!-- articulos -->
     
-    <section class="main__section__container" id="index__section__articulos">
+    <section class="index__section__articulos" id="index__section__articulos">
       <!-- slider con articulos -->
-      <h2>seccion de articulos</h2>
-      <h3>titulo: Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-      <img src="static/bento/assets/img/defect.png" alt="whatever">
-      <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem <a
-          href="#!"> ver más...</a>.</p>
+      <h2 class="display-2 text-center">seccion de articulos</h2>
 
-      <!-- flechas para desplazar entre los articulos del slider -->
-      <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
-      <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+      <div>
 
-      <a href="./templates/articulos.html"> más articulos </a>.</p>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <img src="./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
+              <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a href="#">ver más...</a></p>
+            </div>
+            <div class="col">
+              <img src="./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
+              <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a
+                  href="#">ver más...</a></p>
+            </div>
+            <div class="col">
+              <img src="./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
+              <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a
+                  href="#">ver más...</a></p>
+            </div>
+          </div>
+        </div>
 
-    
+
+        
+      </div>
+ 
     </section>
 
     <!-- videos -->
 
-  <section class="main__section__container" id="index__section__videos">
+  <section class="index__section__videos" id="index__section__videos">
     <!-- slider con videos -->
-    <h2>seccion de videos</h2>
-    
-    <video width="560" height="315" src="./static/bento/assets/mp4/entierro.mp4" controls></video>
-
-    <h3>titulo: Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-    <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem <a
-        href="#!"> ver más...</a>.</p>
-
-    <!-- flechas para desplazar entre los videos del slider -->
-    <img src="static/bento/assets/img/backrow.png" alt="whatever" href="#!">
-    <img src="static/bento/assets/img/nextrow.png" alt="whatever" href="#!">
+    <h2 class="display-2 text-center">seccion de videos</h2>
+    <div class="index__section__videos__container">
+    <iframe class="index__section__videos__video" src="https://www.youtube.com/embed/v-WiG5o5nQ0" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    </div>
 
 
-
-    <br>
-
-    <!-- prueba con Iframe -->
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/v-WiG5o5nQ0" title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-
-    <a href="./templates/videos.html"> más videos </a>.</p>
 
   </section>
 
     <!-- contacto -->
 
-    <section class="main__section__container" id="index__section__contacto">
+    <section class="index__section__contacto" id="index__section__contacto">
 
-      <h2>seccion de contacto</h2>
-      <form action="">
-        <input type="text" placeholder="nombre y apellido">
-        <br>
-        <input type="email" placeholder="correo electrónico">
-        <br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="enviar">
-        <input type="reset" value="restablecer">
+      <h2 class="display-2 text-center">seccion de contacto</h2>
 
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <form class="index__section_contacto__formulario" action="">
+              <input  type="text" placeholder="nombre y apellido">
+              <br>
+              <input type="email" placeholder="correo electrónico">
+              <br>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <br>
+              <input type="submit" value="enviar">
+              <input type="reset" value="restablecer">
+            </div>
+        </div>
+      </div>
 
       </form>
-
-
     
     
     </section>
