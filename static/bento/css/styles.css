@@ -107,6 +107,13 @@ color: darkgoldenrod;
   align-items: center;
 }
 
+.noticias__main__grid__row{
+  margin-top: 5%;
+}
+
+.noticias__main__grid__row:last-of-type{
+  margin-bottom: 5%;
+}
 
 /* MEDIAQUERIES */
 

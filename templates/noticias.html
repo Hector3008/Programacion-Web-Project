@@ -7,109 +7,360 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- link a bootstrap -->
+  <link rel="stylesheet" href="../libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
   <!-- link a css -->
   <link rel="stylesheet" href="../static/bento/css/styles.css">
-  <title>Bento - noticias</title>
+  <title>Bento</title>
 </head>
 
 <body>
 
+  <nav class="navbar navbar-expand-lg bg-danger" id="navbar">
+    <div class="container-fluid">
 
-  <!-- navbar -->
-  <nav>
-    <ul>
-      <li><a href="../index.html">inicio</a></li>
-      <li><a href="./noticias.html">noticias</a></li>
-      <li><a href="./articulos.html">articulos</a></li>
-      <li><a href="./libros.html">libros</a></li>
-      <li><a href="./imagenes.html">imagenes</a></li>
-      <li><a href="./videos.html">videos</a></li>
-      <li><a href="./testimonios.html">testimonios</a></li>
-      <li><a href="../index.html">contacto</a></li>
-  
-    </ul>
+      <a class="navbar-brand text-white navbar__item" href="#">inicio</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__noticias">noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text  navbar__item" href="#index__section__libros">libros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text  navbar__item" href="#index__section__articulos">articulos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__imagenes">imagenes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text navbar__item" href="index__section__videos">videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__testimonios">testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__contacto">contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-<!-- uprow (sticky item) -->
+  <!-- uprow (sticky item) -->
   <section>
-    <a id="uprow" href="#firstsectionnoticias"><img src="../static/bento/assets/img/uprow.png" alt="whatever"></a>
-  </section>
-  <!-- contenido que cambia -->
-  <section class="oddsection" id="firstsectionnoticias">
-
-<img src="../static/bento/assets/img/defect.png" alt="">
-<h2>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
-<p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem
-  <!-- ver más enlazado al item -->
-  <a href="#!"> ver más...</a>.
-</p>
-
+    <a href="#navbar" class="angle-double-up" id="uprow">
+      <img src="./static/bento/assets/icons/uprow.png" alt="whatever">
+    </a>
   </section>
 
-  <section class="evensection">
-  
-    <img src="../static/bento/assets/img/defect.png" alt="">
-    <h2>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
-    <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem
-      <!-- ver más enlazado al item -->
-      <a href="#!"> ver más...</a>.
-    </p>
-  
-  </section>
+  <!-- CONTENIDO QUE CAMBIA -->
 
-  <section class="oddsection">
-  
-    <img src="../static/bento/assets/img/defect.png" alt="">
-    <h2>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
-    <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem
-      <!-- ver más enlazado al item -->
-      <a href="#!"> ver más...</a>.
-    </p>
-  
-  </section>
+  <main>
 
-  <section class="evensection">
+      <div class="container text-center">
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+        <div class="row noticias__main__grid__row">
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+          <div class="col">
+            <div class="index__section__noticias__item">
+              <img class="index__section__noticias__item__img" src="../static/bento/assets/img/defect__img__noticias.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Eum
+                natus eius quod... <a href="#">ver más</a></sub>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </main>
   
-    <img src="../static/bento/assets/img/defect.png" alt="">
-    <h2>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
-    <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem
-      <!-- ver más enlazado al item -->
-      <a href="#!"> ver más...</a>.
-    </p>
-  
-  </section>
+<!-- end CONTENIDO QUE CAMBIA  -->
 
-  <section class="oddsection">
-  
-    <img src="../static/bento/assets/img/defect.png" alt="">
-    <h2>titulo: Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
-    <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere inventore voluptatem
-      <!-- ver más enlazado al item -->
-      <a href="#!"> ver más...</a>.
-    </p>
-  
-  </section>
+<script src="./libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- barra de artículos -->
-<section class="evensection">
+<!-- Footer -->
+<footer class="bg-danger text-center pinkwhite-text">
+  <!-- Grid container -->
+  <div class="container p-4">
 
-  <h3>newsbar</h3>
-  <p> <- 1 2 3 4 5 6 7 8 ... ->
-  </p>
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
 
-</section>
-  
-  <!-- end a contenido que cambia -->
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
 
-</body>
-<footer>
-  <h2>footer</h2>
-  Lorem, ipsum.
-  Lorem, ipsum.
-  Lorem, ipsum.
-  Lorem, ipsum.
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
 
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
 </footer>
+<!-- Footer -->
 
 </body>
 
