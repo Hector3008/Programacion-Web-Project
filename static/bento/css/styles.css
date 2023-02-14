@@ -52,10 +52,19 @@ color: darkgoldenrod;
   padding-bottom: 10px;
 }
 
+.index__section__noticias__item__img{
+  width: 100%;
+}
+
 .index__section__libros{
   background-color: rgb(230, 230, 230);
   padding-bottom: 10px;
 }
+
+.index__section__libros__grid__item__imagen{
+  width: 100%;
+}
+
 .index__section__testimonios{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -82,6 +91,9 @@ color: darkgoldenrod;
 .index__section__imagenes__grid__item{
   margin: 10px;
 }
+.index__section__imagenes__grid__item__imagen{
+  width: 100%;
+}
 
 .index__section__videos{  
   background-color: rgb(230, 230, 230);
@@ -97,6 +109,10 @@ color: darkgoldenrod;
 .index__section__videos__video{
   width:66%; 
   height:500px;
+}
+
+.index__section__articulos__grid__item__imagen{
+  width: 100%;
 }
 
 .index__section_contacto__formulario{
