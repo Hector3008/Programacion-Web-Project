@@ -126,7 +126,7 @@
 
     <section class="index__section__noticias" id="index__section__noticias">
 
-      <h2 class="display-2 text-center">seccion de noticias</h2>
+      <h2 class="display-2 text-center"> <a href="./templates/noticias.html">seccion de noticias </a> </h2>
 
       <div class="container text-center">
         <div class="row">
@@ -154,7 +154,7 @@
     
     <section class="index__section__libros"  id="index__section__libros">
       <!-- slider -->
-      <h2 class="display-2 text-center">seccion de libros</h2>
+      <h2 class="display-2 text-center"> <a href="./templates/libros.html">seccion de libros</a> </h2>
 
       <div class="index__section__libros__grid container text-center">
         <div class="row">
@@ -192,7 +192,7 @@
     
     <section class="index__section__testimonios" id="index__section__testimonios">
     
-    <h2 class="display-2 text-center">seccion de testimonios</h2>
+    <h2 class="display-2 text-center"> <a href="./templates/testimonios.html">seccion de testimonios</a> </h2>
 
     <div class="index__section__testimonios__container center">
       <h3 class="index__section__testimonios__container__title display-5">titulo del testimonio: Lorem ipsum dolor sit amet.</h3>
@@ -206,7 +206,7 @@
     
     <section class="index__section__imagenes"  id="index__section__imagenes">
 
-    <h2 class="display-2 text-center">seccion de imagenes</h2>
+    <h2 class="display-2 text-center"> <a href="templates/imagenes.html">seccion de imagenes</a> </h2>
 
       <div class="container text-center">
         <div class="row">
@@ -246,7 +246,7 @@
     
     <section class="index__section__articulos" id="index__section__articulos">z
       <!-- slider con articulos -->
-      <h2 class="display-2 text-center">seccion de articulos</h2>
+      <h2 class="display-2 text-center"> <a href="templates/articulos.html">seccion de articulos</a> </h2>
 
       <div>
 
@@ -263,7 +263,7 @@
               <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a
                   href="#">ver más...</a></p>
             </div>
-            <div class="col">
+            <div class="col col-xs-0">
               <img class="index__section__articulos__grid__item__imagen" src="./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
               <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
               <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a
@@ -282,7 +282,7 @@
 
   <section class="index__section__videos" id="index__section__videos">
     <!-- slider con videos -->
-    <h2 class="display-2 text-center">seccion de videos</h2>
+    <h2 class="display-2 text-center"> <a href="templates/videos.html">seccion de videos</a> </h2>
     <div class="index__section__videos__container">
     <iframe class="index__section__videos__video" src="https://www.youtube.com/embed/v-WiG5o5nQ0" title="YouTube video player"
       frameborder="0"
@@ -296,25 +296,24 @@
 
     <section class="index__section__contacto" id="index__section__contacto">
 
-      <h2 class="display-2 text-center">seccion de contacto</h2>
+      <h2 class="display-2 text-center"><a href="#">seccion de contacto</a> </h2>
 
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <form class="index__section_contacto__formulario" action="">
-              <input  type="text" placeholder="nombre y apellido">
-              <br>
-              <input type="email" placeholder="correo electrónico">
-              <br>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-              <br>
-              <input type="submit" value="enviar">
-              <input type="reset" value="restablecer">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-        </div>
-      </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
 
-      </form>
+        </div>
+
+
     
     
     </section>

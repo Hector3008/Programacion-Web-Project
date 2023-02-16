@@ -25,6 +25,11 @@ color: darkgoldenrod;
   bottom: 5%;
 }
 
+h2 a{
+  color: black;
+  text-decoration: none;
+}
+
 .index__section__principal {
   background-color: rgb(230, 230, 230);
   margin: auto;
@@ -115,14 +120,6 @@ color: darkgoldenrod;
   width: 100%;
 }
 
-.index__section_contacto__formulario{
-  margin: auto;
-  padding: 60px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .noticias__main__grid__row{
   margin-top: 5%;
 }
@@ -133,7 +130,25 @@ color: darkgoldenrod;
 
 /* MEDIAQUERIES */
 
-@media screen and(max-width: 576px) {}
+
+@media screen and (max-width: 576px) {
+  .index__section__imagenes__grid__item{ 
+    margin: 0px;
+    padding: 1px;
+  }
+  .index__section__libros__grid__item{
+    margin-bottom: 5px;
+  }
+
+  #uprow {
+
+    left: 85%;
+    bottom: 5%;
+  }
+  .index__section__noticias__item__img{
+    margin-top: 20px;
+  }
+}
 
 @media screen and(min-width: 577px) {}
 
