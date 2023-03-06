@@ -1,0 +1,17 @@
+.index__section__testimonios {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.index__section__testimonios__container {
+  width: 66%;
+  height: 518px;
+  border: solid black 1px;
+  margin: auto;
+  overflow: scroll
+}
+
+.index__section__testimonios__container__date {
+  display: flex;
+  justify-content: end;
+}
