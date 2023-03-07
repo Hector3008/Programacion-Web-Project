@@ -388,6 +388,27 @@
   text-align: center;
 }
 
+.nosotros__section {
+  margin: auto;
+  width: 66%;
+  padding: 30px;
+  background: rgb(241, 241, 241);
+}
+
+.contacto__section {
+  width: 66 .contacto__section;
+  margin: auto;
+}
+
+.contacto__section__item__textarea {
+  height: 200px;
+}
+
+.testimonios__section__testimonios {
+  margin: auto;
+  padding: 20px;
+}
+
 .comentario__para__tutor {
   width: 400px;
   height: auto;
