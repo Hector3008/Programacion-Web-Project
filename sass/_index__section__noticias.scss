@@ -1,7 +1,27 @@
 .index__section__noticias {
   padding-bottom: 10px;
+
+}
+
+.index__section__noticias:hover {
+  padding-bottom: 10px;
+  background-color: $shadow;
+}
+//.index__section__noticias__titulo{}
+
+//.index__section__noticias__container{}
+
+.index__section__noticias__item{
+    padding-bottom: 10px;
 }
 
 .index__section__noticias__item__img {
   width: 100%;
+}
+
+//.index__section__noticias__titulo:hover{font-size: 4.8rem;}
+
+.index__section__noticias__item:hover{
+  background-color: $shadow;
+  width: 101%;
 }

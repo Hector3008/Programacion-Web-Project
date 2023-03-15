@@ -1,0 +1,18 @@
+noticias__0001 https://www.vaticannews.va/es/vaticano/news/2023-02/benedicto-xvi-dos-libros-para-descubrir-su-gran-humanidad-2023.html
+noticias__0002 https://elpais.com/internacional/2023-01-05/el-funeral-del-papa-benedicto-xvi-en-imagenes.html
+
+libros__0001 https://www.palabra.es/deus-caritas-est-0929.html
+libros__0002 https://www.palabra.es/caritas-in-veritate-0319.html
+libros__0003 https://www.palabra.es/spe-salvi-1085.html
+libros__0004 https://www.google.com.pe/books/edition/Jesus_De_Nazaret/lfeTKljDqXYC?hl=es-419&gbpv=0
+libros__0005 https://www.amazon.es/Introducci%C3%B3n-al-cristianismo-Joseph-Ratzinger/dp/8430119302
+libros__0006 https://www.amazon.com.mx/Infancia-Jesus-Cardinal-Joseph-Ratzinger/dp/0804136998
+libros__0007 https://www.google.com.pe/books/edition/Dial%C3%A9ctica_de_la_secularizaci%C3%B3n/JBz6FEBpSRYC?hl=es-419&gbpv=0
+libros__0008 https://www.amazon.es/Escatolog%C3%ADa-muerte-eterna-Biblioteca-Herder/dp/8425425190
+libros__0009 https://www.edicionescristiandad.es/product/espiritu-de-la-liturgia-el-una-introduccion/
+libros__0010 https://www.target.com/p/the-god-of-jesus-christ-by-pope-benedict-xvi-joseph-ratzinger-paperback/-/A-87376255
+libros__0011 https://www.buscalibre.pe/libro-joseph-y-chico-un-gato-cuenta-la-vida-de-benedicto-xvi/9780814642740/p/2120183
+libros__0012 https://opusdei.org/es/article/libro-electronico-fe-y-razon-segun-benedicto-xvi/
+
+articulos__0001 https://www.catholic.com/magazine/online-edition/benedict-xvi-knew-where-to-find-meaning
+articulos__0002 https://www.catholic.com/magazine/online-edition/the-future-sainthood-of-benedict-xvi

@@ -1,3 +1,27 @@
-.index__section__articulos__grid__item__imagen {
+//.index__section__articulos{}
+
+.index__section__articulos:hover {
+  background-color: $shadow;
+
+}
+
+//.index__section__articulos__titulo{}
+//.index__section__articulos__titulo__ancor{}
+.index__section__articulos__container{
+  padding-bottom: 20px;
+}
+
+.index__section__articulos__item:hover{
+  background-color: $white__1;
+  width: 102%;
+}
+
+.index__section__articulos__item__imagen {
   width: 100%;
 }
+//.index__section__articulos__item__imagen:hover {}
+//index__section__articulos__item__titulo{}
+//index__section__articulos__item__texto{}
+//index__section__articulos__item__texto__vermas{}
+
+

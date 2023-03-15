@@ -1,11 +1,21 @@
 .index__section__imagenes {
   background-color: $white__2;
+  padding-bottom: 30px;
 }
 
+.index__section__imagenes:hover{
+  background-color: $shadow;
+}
+// .index__section__imagenes__titulo{}
+// .index__section__imagenes__container{}
+
 .index__section__imagenes__grid__item {
-  margin: 10px;
+  padding-bottom: 5px;
 }
 
 .index__section__imagenes__grid__item__imagen {
   width: 100%;
+}
+.index__section__imagenes__grid__item__imagen:hover {
+  width: 101%;
 }

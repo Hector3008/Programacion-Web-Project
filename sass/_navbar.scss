@@ -1,5 +1,19 @@
 @import "variables";
 
+.navnar__logo{
+  width: 90px;
+  height: 34px;
+  padding-bottom: 4px;
+}
+
+.navnar__logo:hover{
+  color: $color__2;
+  width: 96px;
+  height: 41px;
+  border-radius: 5px;
+}
 .navbar__item:hover {
   color: $color__2;
+  background-color: $shadow__1;
+  font-size: large;
 }

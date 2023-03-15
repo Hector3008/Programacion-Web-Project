@@ -6,20 +6,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content=lorem12>
+  <meta name="description"
+    content="Lorem, ipsum, dolor, sit, amet, consectetur, adipisicing, elit, Reprehenderit, ullam, veniam, id,">
+  <link rel="icon" type="image/jpg" href="../static/bento/assets/icons/bentofavicon.png" />
 
   <!-- link a bootstrap -->
-  <link rel="stylesheet" href="./libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
   <!-- link a css -->
   <link rel="stylesheet" href="../static/bento/css/styles.css">
-  <title>Bento</title>
+  <title>Bento - nosotros </title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-danger" id="navbar">
+  <nav class="navbar navbar-expand-lg bg__rojo" id="navbar">
     <div class="container-fluid">
 
-      <a class="navbar-brand text-white navbar__item" href="#">inicio</a>
+      <a class="navbar-brand" href="#">
+        <img class="navnar__logo" src="../static/bento/assets/icons/bentologo.png" alt="">
+      </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +49,7 @@
             <a class="nav-link pinkwhite-text navbar__item" href="./imagenes.html">imagenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./videos.html">videos</a>
+            <a class="nav-link pinkwhite-text navbar__item" href="./nosotros.html">nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link pinkwhite-text navbar__item" href="./testimonios.html">testimonios</a>
@@ -59,41 +65,27 @@
   <!-- uprow (sticky item) -->
   <section>
     <a href="#navbar" class="angle-double-up" id="uprow">
-      <img src="./static/bento/assets/icons/uprow.png" alt="whatever">
+      <img src="../static/bento/assets/icons/uprow.png" alt="whatever">
     </a>
   </section>
 
-  <!-- CONTENIDO QUE CAMBIA -->
 
+  <!-- end CONTENIDO QUE CAMBIA  -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- end CONTENIDO QUE CAMBIA  -->
-
-<script src="./libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Footer -->
-<footer class="bg-danger text-center pinkwhite-text">
+<footer class="bg__rojo text-center pinkwhite-text">
   <!-- Grid container -->
   <div class="container p-4">
 
     <!-- Section: Text -->
     <section class="mb-4">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
+        Este sitio está siendo desarrollado por <a class="footer__mensaje__ancor"
+          href="https://github.com/Hector3008/">Hector H. Hernandez P.</a>
+        Con el propósito de demostrar y poner a prueba sus habilidades de diseño web.
+        El contenido compartido no es de su autoría.
       </p>
     </section>
     <!-- Section: Text -->
@@ -104,20 +96,40 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Explorar</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="../index.html" class="footer__item__ancor">Inicio</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="../templates/nosotros.html" class="footer__item__ancor">Nosotros</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="../templates/contacto.html" class="footer__item__ancor">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Enlaces de Interés</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="footer__item__ancor">FAQ</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="footer__item__ancor">terminos de uso
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="footer__item__ancor">política de Copyright
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="footer__item__ancor">política de privacidad</a>
             </li>
           </ul>
         </div>
@@ -129,37 +141,16 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="footer__item__ancor">Redes Sociales</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="footer__item__ancor">Facebook</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="footer__item__ancor">Instagram</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="footer__item__ancor">Twitter</a>
             </li>
           </ul>
         </div>
@@ -167,20 +158,18 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Páginas Recomendadas</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="https://www.facebook.com/profile.php?id=100044530450027" class="footer__item__ancor">gracias
+                Benedicto XVI</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="https://www.vatican.va/content/vatican/es.html" class="footer__item__ancor">Vatican.va</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="https://www.ewtn.com/es" class="footer__item__ancor">EWTN.com</a>
             </li>
           </ul>
         </div>

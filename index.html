@@ -6,23 +6,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content=lorem12>
-  <meta name="description" content="Lorem, ipsum, dolor, sit, amet, consectetur, adipisicing, elit, Reprehenderit, ullam, veniam, id,">
-
+  <meta name="keywords" content="catolica, iglesia catolica, religion catolica, catolica, cristianismo, teologia, articulos, libros, noticias, fe, doctrina, religion, filosofia, razon">
+  <meta name="description" content="en este sitio encontrarás las noticias, articulos y libros más importantes del fallecido papa Benedicto XVI.">
+  <link rel="icon" type="image/jpg" href="./static/bento/assets/icons/bentofavicon.png" />
   <!-- link a bootstrap -->
   <link rel="stylesheet" href="./libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
   <!-- link a css -->
   <link rel="stylesheet" href="./static/bento/css/styles.css">
-  <title>Bento - inicio </title>
+  <title> inicio </title>
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg bg__rojo" id="navbar">
     <div class="container-fluid">
-
-      <a class="navbar-brand text-white navbar__item" href="#">inicio</a>
-
+      <a class="navbar-brand" href="./index.html">
+        <img class="navnar__logo" src="./static/bento/assets/icons/bentologo.png" alt="">
+      </a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,7 @@
 
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
             <a class="nav-link pinkwhite-text navbar__item" href="#index__section__noticias">noticias</a>
@@ -82,32 +83,28 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect__img__slider__principal.jpg"
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/slider__label__animateacolaborar.jpg"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="index__section__principal__carousel__item__title display-2 titulo">First slide label</h5>
-              <p class="index__section__principal__carousel__item__subtitle subtitulo">Some representative placeholder content for the
-                first slide.</p>
+              <h5 class="index__section__principal__carousel__item__title display-2 titulo">¡Anímate a colaborar!</h5>
+              <p class="index__section__principal__carousel__item__subtitle subtitulo">Nuestra obra necesita muchas manos para lograr todo lo que nos proponemos. Unéte a nosotros y sé parte de esto.</p>
             </div>
           </div>
           <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect__img__slider__principal.jpg"
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/slider__label__quienessomos.jpg"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="index__section__principal__carousel__item__title display-2">second slide label</h5>
-              <p class="index__section__principal__carousel__item__subtitle">Some representative placeholder content for the
-                first
-                slide.</p>
+              <h5 class="index__section__principal__carousel__item__title__negative display-2">¿Quienes somos nosotros?</h5>
+              <p class="index__section__principal__carousel__item__subtitle__negative">Conoce quienes somos y por qué nos dedicamos a este apostolado.</p>
             </div>
           </div>
           <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/defect__img__slider__principal.jpg"
+            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/slider__label__quienesbenedictoxvi.png"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="index__section__principal__carousel__item__title display-2">third slide label</h5>
-              <p class="index__section__principal__carousel__item__subtitle">Some representative placeholder content for the
-                first
-                slide.</p>
+              <h5 class="index__section__principal__carousel__item__title display-2">¿Quién fue Benedicto XVI?</h5>
+              <p class="index__section__principal__carousel__item__subtitle">¿por qué es tan especial? Conoce el valor de su servicio en vida y el de su obra academica tan reconocida y respetada
+              por muchos.</p>
             </div>
           </div>
         </div>
@@ -124,27 +121,25 @@
 
     <!-- noticias -->
 
-      <!-- hice lo que pude con esta sección, pero aún falta que pueda moverse con más de dos elementos -->
 
     <section class="index__section__noticias" id="index__section__noticias">
 
-      <h2 class="display-2 text-center"> <a href="./templates/noticias.html">seccion de noticias </a> </h2>
+      <h2 class="display-2 text-center index__section__noticias__titulo"> <a href="./templates/noticias.html">seccion de noticias </a> </h2>
 
-      <div class="container text-center">
+      <div class="container index__section__noticias__container text-center">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-6">
             <div class="index__section__noticias__item">
-              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="defect__img__noticias">
-              <h3  class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum natus eius quod... <a href="#">ver más</a></sub>
+              <img class="index__section__noticias__item__img" src="static/bento/assets/img/noticias/noticias__0001.jpeg" alt="defect__img__noticias">
+              <h3  class="display-5 index__section__noticias__item__titulo">Benedicto XVI, dos libros para descubrir su gran humanidad</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Se presentaron los volúmenes publicados por la editorial San Pablo dedicados al Papa bávaro:... <a href="#">ver más</a></sub>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-6">
             <div class="index__section__noticias__item">
-              <img class="index__section__noticias__item__img" src="static/bento/assets/img/defect__img__noticias.png" alt="defect__img__noticias">
-              <h3 class="display-5 index__section__noticias__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-                natus eius quod... <a href="#">ver más</a></sub>
+              <img class="index__section__noticias__item__img" src="static/bento/assets/img/noticias/noticias__0002.jpeg" alt="defect__img__noticias">
+              <h3 class="display-5 index__section__noticias__item__titulo">El funeral del papa Benedicto XVI, en imágenes</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> Las exequias, después de tres días de capilla ardiente, serán “solemnes” pero “sobrias”, por expreso deseo del difunto.... <a href="#">ver más</a></sub>
             </div>
           </div>
         </div>
@@ -156,32 +151,29 @@
     
     <section class="index__section__libros"  id="index__section__libros">
       <!-- slider -->
-      <h2 class="display-2 text-center"> <a href="./templates/libros.html">seccion de libros</a> </h2>
+      <h2 class="display-2 text-center index__section__libros__titulo"> <a href="./templates/libros.html">seccion de libros</a> </h2>
 
-      <div class="index__section__libros__grid container text-center">
-        <div class="row">
-          <div class="col">
+      <div class="index__section__libros__container container text-center">
+        <div class="index__section__libros__grid__row row">
+          <div class="index__section__librosgrid__col col-sm-4">
             <div class="index__section__libros__grid__item">
-              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/defect_img__libros.png" alt="defect_img__libros">
-              <h3 class="index__section__libros__grid__item__titulo display-6">titulo del libro: Lorem, ipsum dolor.</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-  Eum natus eius... <a href="#">ver más</a></sub>
+              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/libros/libros__0001.jpg" alt="defect_img__libros">
+              <h3 class="index__section__libros__grid__item__titulo display-6">Deus caritas est.</h3>
+              <sub class="lead index__section__libros__item__subtitulo"> celebre encíciclipa del santo padre sobre el amor cristiano... <a class="index__section__libros__item__subtitulo__vermas" href="#">ver más</a></sub>
             </div>
           </div>
-          <div class="col">
+          <div class="index__section__librosgrid__col col-sm-4">
             <div class="index__section__libros__grid__item">
-              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/defect_img__libros.png" alt="defect_img__libros">
-              <h3 class="index__section__libros__grid__item__titulo display-6">titulo del libro: Lorem, ipsum dolor.</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Eum natus eius... <a href="#">ver más</a></sub>
+              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/libros/libros__0002.jpg" alt="defect_img__libros">
+              <h3 class="index__section__libros__grid__item__titulo display-6">Caritas in veritate.</h3>
+              <sub class="lead index__section__libros__item__subtitulo"> Sobre el desarrollo humano integral en la caridad y en la verdad... <a class="index__section__libros__item__vermas" href="#">ver más</a></sub>
             </div>            
           </div>
-          <div class="col">
+          <div class="index__section__librosgrid__col col-sm-4">
             <div class="index__section__libros__grid__item">
-              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/defect_img__libros.png" alt="defect_img__libros">
-              <h3 class="index__section__libros__grid__item__titulo display-6">titulo del libro: Lorem, ipsum dolor.</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Eum natus eius... <a href="#">ver más</a></sub>
+              <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/libros/libros__0003.jpg" alt="defect_img__libros">
+              <h3 class="index__section__libros__grid__item__titulo display-6">Spe salvi.</h3>
+              <sub class="lead index__section__noticias__item__subtitulo"> celebre encícilica del santo padre sobre la esperanza cristiana... <a class="index__section__libros__item__vermas" href="#">ver más</a></sub>
             </div>
             
           </div>
@@ -194,7 +186,7 @@
     
     <section class="index__section__testimonios" id="index__section__testimonios">
     
-    <h2 class="display-2 text-center"> <a href="./templates/testimonios.html">seccion de testimonios</a> </h2>
+    <h2 class="display-2 index__section__testimonios__titulo text-center"> <a href="./templates/testimonios.html">seccion de testimonios</a> </h2>
 
     <div class="index__section__testimonios__container center">
       <h3 class="index__section__testimonios__container__title display-5">titulo del testimonio: Lorem ipsum dolor sit amet.</h3>
@@ -208,34 +200,34 @@
     
     <section class="index__section__imagenes"  id="index__section__imagenes">
 
-    <h2 class="display-2 text-center"> <a href="templates/imagenes.html">seccion de imagenes</a> </h2>
+    <h2 class="display-2 index__section__imagenes__titulo text-center"> <a href="templates/imagenes.html">seccion de imagenes</a> </h2>
 
-      <div class="container text-center">
+      <div class="index__section__imagenes__container container text-center">
         <div class="row">
-          <div class="col index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png" alt="">
+          <div class="col-sm-4 index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0001.jpg" alt="ratzingerjoven">
           </div>
-          <div class="col index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+          <div class="col-sm-4 index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0002.jpg"
               alt="">
           </div>
-          <div class="col index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+          <div class="col-sm-4 index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0003.jpeg"
               alt="">
           </div>
         </div>
 
         <div class="row">
-          <div class="col index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+          <div class="col-sm-4 index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0004.jpeg"
               alt="">
           </div>
-          <div class="col index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+          <div class="col-sm-4 index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0005.png"
               alt="">
           </div>
-          <div class="col index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/defect_img__imagenes.png"
+          <div class="col-sm-4 index__section__imagenes__grid__item">
+            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0006.jpeg"
               alt="">
           </div>
         </div>
@@ -246,30 +238,42 @@
 
     <!-- articulos -->
     
-    <section class="index__section__articulos" id="index__section__articulos">z
+    <section class="index__section__articulos" id="index__section__articulos">
       <!-- slider con articulos -->
-      <h2 class="display-2 text-center"> <a href="templates/articulos.html">seccion de articulos</a> </h2>
+      <h2 class="index__section__articulos__titulo display-2 text-center"> <a class="index__section__articulos__titulo__ancor" href="templates/articulos.html">seccion de articulos</a> </h2>
 
       <div>
 
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <img class="index__section__articulos__grid__item__imagen" src= "./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
-              <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
-              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a href="#">ver más...</a></p>
+        <div class="index__section__articulos__container container text-center">
+          <div class="row index__section__grid__col">
+            <div class="col-sm-4  index__section__grid__col">
+              <div class="index__section__articulos__item">
+                <img class="index__section__articulos__item__imagen" src="./static/bento/assets/img/articulos/articulos__0001.jpeg"
+                alt="defect_img__articulos">
+              <h3 class="index__section__articulos__item__titulo display-6"> Benedicto XVI sabía dónde encontrar el sentido.</h3>
+              <p class="index__section__articulos__item__texto lead">¿Qué es lo que más busca nuestra sociedad adicta a las pantallas?
+                El Papa Benedicto XVI sabía dónde encontrarlo y dedicó
+                su sacerdocio a mostrarnos el camino. <a class="index__section__articulos__item__texto__vermas" href="#">ver
+                  más...</a></p></div>             
             </div>
-            <div class="col">
-              <img class="index__section__articulos__grid__item__imagen" src="./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
-              <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
-              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a
-                  href="#">ver más...</a></p>
+            <div class="col-sm-4  index__section__grid__col">
+              <div class="index__section__articulos__item">
+                <img class="index__section__articulos__item__imagen" src="./static/bento/assets/img/articulos/articulos__0002.jpg"
+                  alt="defect_img__articulos">
+                <h3 class="index__section__articulos__item__titulo display-6"> La futura santidad de Benedicto XVI.</h3>
+                <p class="index__section__articulos__item__texto lead">Un día, dentro del próximo siglo, Benedicto XVI será declarado santo. Precisamente qué tan pronto sucederá esto es
+                incierto, pero sucederá. <a class="index__section__articulos__item__texto__vermas" href="#">ver
+                    más...</a></p>
+              </div>
             </div>
-            <div class="col col-xs-0">
-              <img class="index__section__articulos__grid__item__imagen" src="./static/bento/assets/img/defect_img__articulos.png" alt="defect_img__articulos">
-              <h3 class="display-6"> titulo del articulo: Lorem ipsum dolor sit amet.</h3>
-              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure voluptas. <a
-                  href="#">ver más...</a></p>
+            <div class="col-sm-4  index__section__grid__col">
+              <div class="index__section__articulos__item">
+                <img class="index__section__articulos__item__imagen" src="./static/bento/assets/img/articulos/articulos__0003.jpeg"
+                  alt="defect_img__articulos">
+                <h3 class="index__section__articulos__item__titulo display-6"> ¿Cómo percibe Benedicto XVI el Concilio Vaticano II?</h3>
+                <p class="index__section__articulos__item__texto lead">En la recepción del Concilio, ¿qué se ha hecho bien?, ¿qué ha sido insuficiente o equivocado?, ¿qué queda aún por hacer? <a class="index__section__articulos__item__texto__vermas" href="#">ver
+                    más...</a></p>
+              </div>
             </div>
           </div>
         </div>
@@ -284,17 +288,17 @@
 
     <section class="index__section__contacto" id="index__section__contacto">
 
-      <h2 class="display-2 text-center"><a href="#"> <a href="./templates/contacto.html">seccion de contacto</a> </a> </h2>
+      <h2 class="index__section__contacto__titulo display-2 text-center"><a class="index__section__contacto__titulo__ancor" href="#"> <a href="./templates/contacto.html">seccion de contacto</a> </a> </h2>
 
-      <div class="container text-center">
+      <div class="index__section__contacto__container container text-center">
         <div class="row">
           <div class="col">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <label for="index__section__contacto__item__form exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="index__section__contacto__item__input__email form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <label for="exampleFormControlTextarea1" class="index__section__contacto__item__input__textarea form-label">Example textarea</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </div>
@@ -319,9 +323,9 @@
     <!-- Section: Text -->
     <section class="mb-4">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
+        Este sitio está siendo desarrollado por <a class="footer__mensaje__ancor" href="https://github.com/Hector3008/">Hector H. Hernandez P.</a>
+        Con el propósito de demostrar y poner a prueba sus habilidades de diseño web.
+        El contenido compartido no es de su autoría.
       </p>
     </section>
     <!-- Section: Text -->
@@ -332,20 +336,40 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Explorar</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="./index.html" class="footer__item__ancor">Inicio</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="./templates/nosotros.html" class="footer__item__ancor">Nosotros</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="./templates/contacto.html" class="footer__item__ancor">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Enlaces de Interés</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="footer__item__ancor">FAQ</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="footer__item__ancor">terminos de uso
+</a>
+            </li>
+            <li>
+              <a href="#!" class="footer__item__ancor">política de Copyright
+</a>
+            </li>
+            <li>
+              <a href="#!" class="footer__item__ancor">política de privacidad</a>
             </li>
           </ul>
         </div>
@@ -357,37 +381,16 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="footer__item__ancor">Redes Sociales</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="footer__item__ancor">Facebook</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="footer__item__ancor">Instagram</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="footer__item__ancor">Twitter</a>
             </li>
           </ul>
         </div>
@@ -395,20 +398,17 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Páginas Recomendadas</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="https://www.facebook.com/profile.php?id=100044530450027" class="footer__item__ancor">gracias Benedicto XVI</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="https://www.vatican.va/content/vatican/es.html" class="footer__item__ancor">Vatican.va</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="https://www.ewtn.com/es" class="footer__item__ancor">EWTN.com</a>
             </li>
           </ul>
         </div>

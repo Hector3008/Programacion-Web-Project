@@ -1,0 +1,16 @@
+.footer__mensaje__ancor{
+    text-decoration: none;
+    color: $white__1;
+}
+.footer__mensaje__ancor:hover{
+  @extend .navbar__item;
+  color: white;
+}
+
+.footer__item__ancor{
+  text-decoration: none;
+  color: $white__1;
+}
+.footer__item__ancor:hover{
+  @extend .navbar__item;
+}

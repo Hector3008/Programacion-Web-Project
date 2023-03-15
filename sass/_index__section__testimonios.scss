@@ -1,7 +1,13 @@
 .index__section__testimonios {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+.index__section__testimonios:hover{
+  background-color: $shadow;
+}
+// .index__section__testimonios__titulo{}
+
 
 .index__section__testimonios__container {
   width: 66%;
@@ -10,6 +16,13 @@
   margin: auto;
   overflow: scroll
 }
+
+.index__section__testimonios__container:hover{
+  background-color: $white__1;
+}
+
+// .index__section__testimonios__container__title{}
+// .index__section__testimonios__container__text{}
 
 .index__section__testimonios__container__date {
   display: flex;

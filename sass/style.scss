@@ -1,5 +1,6 @@
 @import "variables";
 @import "navbar";
+@import "footer";
 @import "index__section__noticias";
 @import "index__section__principal";
 @import "index__section__libros";
@@ -11,6 +12,12 @@
 @import "nosotros";
 @import "contacto";
 @import "testimonios";
+@import "allobjects__articulos";
+@import "allobjects__noticias";
+@import "allobjects__libros";
+@import "allobjects__testimonios";
+@import "allobjects__imagenes";
+@import "mediaqueries";
 
 .comentario__para__tutor {
 
@@ -25,7 +32,11 @@
   justify-content: center;
 }
 
-
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
 
 .pinkwhite-text {
   color: rgb(249, 202, 202);
@@ -36,6 +47,10 @@
   position: fixed;
   left: 90%;
   bottom: 5%;
+}
+
+#uprow:hover {
+  background-color: rgba(0, 0, 0, 0.252);
 }
 
 h2 a {
@@ -64,6 +79,7 @@ h2 a {
   margin-top: 5%;
 }
 
+
 .noticias__main__grid__row:last-of-type {
   margin-bottom: 5%;
 }
@@ -71,33 +87,3 @@ h2 a {
 /* MEDIAQUERIES */
 
 
-@media screen and (max-width: 576px) {
-  .index__section__imagenes__grid__item {
-    margin: 0px;
-    padding: 1px;
-  }
-
-  .index__section__libros__grid__item {
-    margin-bottom: 5px;
-  }
-
-  #uprow {
-
-    left: 85%;
-    bottom: 5%;
-  }
-
-  .index__section__noticias__item__img {
-    margin-top: 20px;
-  }
-}
-
-// @media screen and(min-width: 577px) {}
-
-// @media screen and(min-width: 768px) {}
-
-// @media screen and(min-width: 992px) {}
-
-// @media screen and(min-width: 1200px) {}
-
-// @media screen and(min-width: 1400px) {}
