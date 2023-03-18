@@ -1,3 +1,6 @@
+/*=======================allobjects__articulos==========================*/
+/*=======================allobjects__articulos==========================*//*=======================allobjects__articulos===========================*/
+/*=======================allobjects__articulos==========================*/
 
 //.index__section__articulos__container {padding-bottom: 20px;}
 
@@ -11,13 +14,13 @@
 
 // .index__section__articulos__item{}
 
-.articulosallo__main__item{
+.articulosallo__main__grid__item{
   padding-top: 30px;
 }
 
-.articulosallo__main__item:hover{
-  background-color: $white__1;
-  border-radius: 20px;
+.articulosallo__main__grid__item:hover{
+  border-radius: 10px;
+  width: 105%;
 }
 
 

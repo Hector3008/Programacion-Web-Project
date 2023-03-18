@@ -20,47 +20,50 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg__rojo" id="navbar">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar__container" id="navbar">
+  <div class="container-fluid">
 
-      <a class="navbar-brand" href="../index.html">
-        <img class="navnar__logo" src="../static/bento/assets/icons/bentologo.png" alt="">
-      </a>
+    <a class="navbar-brand" href="../index.html">
+      <img class="navnar__logo" src="../static/bento/assets/icons/bentologo.png" alt="">
+    </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./noticias.html">noticias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text  navbar__item" href="./libros.html">libros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text  navbar__item" href="./articulos.html">articulos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./imagenes.html">imagenes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./nosotros.html">nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./testimonios.html">testimonios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./contacto.html">contacto</a>
-          </li>
-        </ul>
-      </div>
+        <li class="nav-item navbar__item">
+          <a class="nav-link navbar__item" href="../templates/noticias.html">noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/libros.html">libros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/articulos.html">articulos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/imagenes.html">imagenes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/benedicto.html">Benedicto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/nosotros.html">nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/testimonios.html">testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/contacto.html">contacto</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- uprow (sticky item) -->
   <section>
@@ -71,7 +74,6 @@
 
   <!-- CONTENIDO QUE CAMBIA -->
 
-  <!-- CONTENIDO QUE CAMBIA -->
 
 
   <main class="contacto__main">
@@ -79,22 +81,34 @@
 
     <section class="contacto__section">
       <h2 class="display-2 text-center"><a href="#">contacto</a> </h2>
+
+      <div class="lead">
+        <br>
+        <p>
+          ¿Deseas conocer más de nuestra institución? ¿Quieres colaborar con algún aporte? ¿Tienes un testimonio que quieres compartir? 
+        </p>
+        <p>
+          Hazlo saber con este formulario.
+        </p>
+        <br>
+      </div>
       
       <div class="container text-center">
         <div class="row">
           <div class="col">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <label for="exampleFormControlTextarea1" class="form-label">texto del mensaje</label>
               <textarea class="form-control contacto__section__item__textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </div>
       
         </div>
 
+        <br>
     </section>
 
 
@@ -109,7 +123,7 @@
 <script src="../libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Footer -->
-<footer class="bg__rojo text-center pinkwhite-text">
+<footer class="text-center footer__container">
   <!-- Grid container -->
   <div class="container p-4">
 
@@ -216,7 +230,7 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="text-center p-3 footer__container__copyright">
     © 2020 Copyright:
     <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>

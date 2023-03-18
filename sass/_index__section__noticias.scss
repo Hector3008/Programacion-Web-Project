@@ -1,12 +1,13 @@
+/*==================.index__section__noticias========================*/
+/*==================.index__section__noticias========================*/
+/*==================.index__section__noticias========================*/
+
 .index__section__noticias {
   padding-bottom: 10px;
-
 }
 
-.index__section__noticias:hover {
-  padding-bottom: 10px;
-  background-color: $shadow;
-}
+//.index__section__noticias:hover {}
+
 //.index__section__noticias__titulo{}
 
 //.index__section__noticias__container{}
@@ -19,9 +20,14 @@
   width: 100%;
 }
 
-//.index__section__noticias__titulo:hover{font-size: 4.8rem;}
+//.index__section__noticias__titulo:hover{}
 
 .index__section__noticias__item:hover{
   background-color: $shadow;
-  width: 101%;
+  width: 104%;
+  transition: width 2s;
+}
+
+.index__section__noticias__vermas{
+  @extend .index__section__testimonios__vermas;
 }

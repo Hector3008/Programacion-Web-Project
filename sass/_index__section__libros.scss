@@ -1,10 +1,11 @@
+/*=====================.index__section__libros=========================*/
+/*=====================.index__section__libros=========================*/
+/*=====================.index__section__libros=========================*/
+
 .index__section__libros {
-  background-color: $white__2;
   padding-bottom: 10px;
 }
-.index__section__libros:hover{
-  background-color: $shadow;
-}
+//.index__section__libros:hover{}
 
 //.index__section__libros__titulo{}
 
@@ -22,7 +23,7 @@
 
 .index__section__libros__grid__item:hover {
   background-color: $shadow;
-  width: 101%;
+  width: 105%;
 }
 
 .index__section__libros__grid__item__imagen {
@@ -35,3 +36,7 @@
 // .index__section__libros__item__subtitulo{}
 
 // .index__section__libros__item__subtitulo__vermas{}
+
+.index__section__libros__vermas{
+  @extend .index__section__testimonios__vermas;
+}

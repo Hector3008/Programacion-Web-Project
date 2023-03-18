@@ -1,20 +1,24 @@
+/*==================.index__section__principal========================*/
+/*==================.index__section__principal========================*/
+/*==================.index__section__principal========================*/
+
 .index__section__principal {
-  background-color: $white__2;
+  background: linear-gradient($white__2, white);
   margin: auto;
   padding-top: 15px;
   padding: auto;
 }
 
-.index__section__principal:hover{
-  background-color: $shadow;
-}
+//.index__section__principal:hover{}
 
 .index__section__principal__carousel__item__img {
   width: 100%;
   overflow: hidden;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px
 }
 .index__section__principal__carousel__item__img:hover {
-  width: 101%;
+  width: 103%;
   overflow: hidden;
 }
 

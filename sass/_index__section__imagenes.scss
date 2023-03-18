@@ -1,21 +1,24 @@
+/*=======================.index__section__imagenes====================*/
+/*=======================.index__section__imagenes====================*/
+/*=======================.index__section__imagenes====================*/
+
+
 .index__section__imagenes {
-  background-color: $white__2;
   padding-bottom: 30px;
 }
 
-.index__section__imagenes:hover{
-  background-color: $shadow;
-}
+//.index__section__imagenes:hover{}
 // .index__section__imagenes__titulo{}
 // .index__section__imagenes__container{}
 
 .index__section__imagenes__grid__item {
   padding-bottom: 5px;
 }
+.index__section__imagenes__grid__item:hover{
+  width: 105%;
+}
 
 .index__section__imagenes__grid__item__imagen {
   width: 100%;
 }
-.index__section__imagenes__grid__item__imagen:hover {
-  width: 101%;
-}
+//.index__section__imagenes__grid__item__imagen:hover {}

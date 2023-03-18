@@ -1,24 +1,27 @@
+/*==================.index__section__testimonios========================*/
+/*==================.index__section__testimonios========================*/
+/*==================.index__section__testimonios========================*/
+
 .index__section__testimonios {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.index__section__testimonios:hover{
-  background-color: $shadow;
-}
+//.index__section__testimonios:hover{}
 // .index__section__testimonios__titulo{}
 
 
 .index__section__testimonios__container {
   width: 66%;
   height: 518px;
-  border: solid black 1px;
+  padding: 10px;
   margin: auto;
-  overflow: scroll
+  overflow: scroll;
+  margin-bottom: 15px;
 }
 
 .index__section__testimonios__container:hover{
-  background-color: $white__1;
+  background-color: $shadow;
 }
 
 // .index__section__testimonios__container__title{}
@@ -27,4 +30,8 @@
 .index__section__testimonios__container__date {
   display: flex;
   justify-content: end;
+}
+
+.index__section__testimonios__vermas{
+  text-decoration: underline;
 }

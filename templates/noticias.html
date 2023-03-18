@@ -21,12 +21,12 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg__rojo" id="navbar">
+<nav class="navbar navbar-expand-lg navbar__container" id="navbar">
   <div class="container-fluid">
 
-      <a class="navbar-brand" href="../index.html">
-        <img class="navnar__logo" src="../static/bento/assets/icons/bentologo.png" alt="">
-      </a>
+    <a class="navbar-brand" href="../index.html">
+      <img class="navnar__logo" src="../static/bento/assets/icons/bentologo.png" alt="">
+    </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,28 +35,33 @@
 
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item navbar__item">
+          <a class="nav-link navbar__item" href="../templates/noticias.html">noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/libros.html">libros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/articulos.html">articulos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/imagenes.html">imagenes</a>
+        </li>
 
         <li class="nav-item">
-          <a class="nav-link pinkwhite-text navbar__item" href="./noticias.html">noticias</a>
+            <a class="nav-link  navbar__item" href="../templates/benedicto.html">Benedicto</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link  navbar__item" href="../templates/nosotros.html">nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link pinkwhite-text  navbar__item" href="./libros.html">libros</a>
+          <a class="nav-link  navbar__item" href="../templates/testimonios.html">testimonios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link pinkwhite-text  navbar__item" href="./articulos.html">articulos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link pinkwhite-text navbar__item" href="./imagenes.html">imagenes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link pinkwhite-text navbar__item" href="./nosotros.html">nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link pinkwhite-text navbar__item" href="./testimonios.html">testimonios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link pinkwhite-text navbar__item" href="./contacto.html">contacto</a>
+          <a class="nav-link  navbar__item" href="../templates/contacto.html">contacto</a>
         </li>
       </ul>
     </div>
@@ -74,178 +79,163 @@
 
   <main class="noticiasallo__main">
 
+      <h1 class="librosallo__main__titulo display-1 text-center">Catálogo de noticias</h1>
+
       <div class="noticiasallo__main__container container text-center">
+
         <div class="row noticiasallo__main__grid__row">
+
           <div class="noticiasallo__main__grid__col col-sm-6">
+            
             <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0001.jpeg"
                 alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver más</a></sub>
+
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">Benedicto XVI, dos libros para descubrir su gran humanidad</h3>
+
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Se presentaron los volúmenes publicados por la editorial San Pablo dedicados al Papa bávaro:... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.vaticannews.va/es/vaticano/news/2023-02/benedicto-xvi-dos-libros-para-descubrir-su-gran-humanidad-2023.html">ver más</a></sub>
+                
             </div>
           </div>
           <div class="noticiasallo__main__grid__col col-sm-6">
+
             <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0002.jpeg"
                 alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
+
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">El funeral del papa Benedicto XVI, en imágenes.</h3>
+
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Las exequias, después de tres días de capilla ardiente, serán “solemnes” pero “sobrias”, por expreso deseo del
+              difunto... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://elpais.com/internacional/2023-01-05/el-funeral-del-papa-benedicto-xvi-en-imagenes.html">ver
+                  más</a></sub>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row noticiasallo__main__grid__row">
+
+          <div class="noticiasallo__main__grid__col col-sm-6">
+
+            <div class="noticiasallo__main__grid__item ">
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0003.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">Cardenal Müller: Por qué Benedicto XVI es un maestro para la Iglesia actual</h3>
+
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Ha reforzado a los cristianos en la fe, los ha animado en la esperanza y los ha encendido de amor a Dios... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://infovaticana.com/2023/02/18/cardenal-muller-por-que-benedicto-xvi-es-un-maestro-para-la-iglesia-actual/
+">ver
+                  más</a></sub>
+            </div>
+          </div>
+          <div class="noticiasallo__main__grid__col col-sm-6">
+
+            <div class="noticiasallo__main__grid__item ">
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0004.png"
+                alt="defect__img__noticias">
+
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">200.000 fieles visitan la capilla ardiente de Benedicto XVI, que cierra para dar paso a su funeral</h3>
+
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> La reina emérita, doña Sofía, y el ministro de la Presidencia, Félix Bolaños, acuden a la basílica de San Pedro para
+              rendir homenaje a Ratzinger... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://elpais.com/internacional/2023-01-04/200000-fieles-visitan-la-capilla-ardiente-de-benedicto-xvi-que-cierra-para-dar-paso-a-su-funeral.html
+">ver
+                  más</a></sub>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row noticiasallo__main__grid__row">
+
+          <div class="noticiasallo__main__grid__col col-sm-6">
+
+            <div class="noticiasallo__main__grid__item ">
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0005.png"
+                alt="defect__img__noticias">
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">Otro secretario del papa Benedicto XVI presentó un libro en el que narra sus vivencias con el Sumo Pontífice.</h3>
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> A diferencia de la obra de Gaenswei, “Mis días con Benedicto XVI” es una texto ligero y lleno de fotografías y buenos
+              recuerdos... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.infobae.com/america/mundo/2023/02/09/otro-secretario-del-papa-benedicto-xvi-presento-un-libro-en-el-que-narra-sus-vivencias-con-el-sumo-pontifice/
+">ver
+                  más</a></sub>
+            </div>
+          </div>
+
+          <div class="noticiasallo__main__grid__col col-sm-6">
+
+            <div class="noticiasallo__main__grid__item ">
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0006.png"
+                alt="defect__img__noticias">
+
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">¿Benedicto XVI santo?: le atribuyen un milagro en 2013 y crecen los pedidos de reconocimiento.</h3>
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> El episodio ocurrió hace casi 20 años, cuando el entonces pontífice se reunió con Peter Srsich, un estadounidense de 18
+              años enfermo de cáncer... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.infobae.com/america/mundo/2023/01/03/en-las-primeras-horas-de-capilla-ardiente-65000-personas-asistieron-al-vaticano-a-despedirse-de-benedicto-xvi/
+">ver
                   más</a></sub>
             </div>
           </div>
         </div>
         <div class="row noticiasallo__main__grid__row">
+
           <div class="noticiasallo__main__grid__col col-sm-6">
+
             <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0007.png"
                 alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
+
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">En las primeras horas de capilla ardiente, 65.000 personas asistieron al Vaticano a despedirse de Benedicto XVI.</h3>
+
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Se calcula que son 20 segundos lo que cada asistente puede estar ante el difunto papa emérito. Este martes y miércoles,
+              la basílica de San Pedro estará abierta durante doce horas, de 7:00 a 19:00 horas... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.infobae.com/america/mundo/2023/01/03/en-las-primeras-horas-de-capilla-ardiente-65000-personas-asistieron-al-vaticano-a-despedirse-de-benedicto-xvi/
+">ver
                   más</a></sub>
+
             </div>
+
           </div>
           <div class="noticiasallo__main__grid__col col-sm-6">
             <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0008.png"
                 alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-        </div>
-        <div class="row noticiasallo__main__grid__row">
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">El secretario de Benedicto XVI publicará sus memorias contra las “calumnias” tras la muerte del papa emérito.</h3>
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> En “Nada más que la verdad”, que saldrá a la venta en las próximas semanas, el autor arroja luz sobre algunos aspectos
+              incomprendidos del ex pontífice, describe “desde dentro el verdadero mundo vaticano”, y cuenta... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.infobae.com/leamos/2023/01/03/el-secretario-de-benedicto-xvi-publicara-sus-memorias-contra-las-calumnias-tras-la-muerte-del-papa-emerito/
+">ver
                   más</a></sub>
             </div>
           </div>
         </div>
+
         <div class="row noticiasallo__main__grid__row">
+
           <div class="noticiasallo__main__grid__col col-sm-6">
+
             <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
+
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0009.png"
                 alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
+
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">El Papa pidió que oremos por Benedicto XVI que está muy enfermo.</h3>
+
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Al final de la audiencia general de este miércoles, 28 de diciembre, el Santo Padre pidió “a todos una oración
+              especial”, por el Papa emérito Benedicto XVI.... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.vaticannews.va/es/papa/news/2022-12/papa-francisco-audiencia-general-oracion-benedicto-xvi-enfermo.html
+">ver
                   más</a></sub>
+
             </div>
           </div>
           <div class="noticiasallo__main__grid__col col-sm-6">
             <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
+              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/noticias/noticias__0010.png"
                 alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-        </div>
-        <div class="row noticiasallo__main__grid__row">
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-        </div>
-        <div class="row noticiasallo__main__grid__row">
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-        </div>
-        <div class="row noticiasallo__main__grid__row">
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-        </div>
-        <div class="row noticiasallo__main__grid__row">
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
-                  más</a></sub>
-            </div>
-          </div>
-          <div class="noticiasallo__main__grid__col col-sm-6">
-            <div class="noticiasallo__main__grid__item ">
-              <img class="noticiasallo__main__grid__item__imagen" src="../static/bento/assets/img/defect__img__noticias.png"
-                alt="defect__img__noticias">
-              <h3 class="display-5 noticiasallo__main__grid__item__titulo">titulo de noticia: Lorem, ipsum dolor.</h3>
-              <sub class="lead noticiasallo__main__grid__item__subtitulo "> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Eum natus eius quod... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="#">ver
+              <h3 class="display-5 noticiasallo__main__grid__item__titulo">Benedicto XVI: el intelectual que llegó a ser Papa.</h3>
+              <sub class="lead noticiasallo__main__grid__item__subtitulo "> l primer pontífice que renunció al cargo en 600 años, falleció el sábado pasado. Tenía 95 años... <a class="noticiasallo__main__grid__item__subtitulo__vermas" href="https://www.infobae.com/opinion/2023/01/04/benedicto-xvi-el-intelectual-que-llego-a-ser-papa/
+">ver
                   más</a></sub>
             </div>
           </div>
@@ -256,10 +246,12 @@
   
 <!-- end CONTENIDO QUE CAMBIA  -->
 
+<!-- end CONTENIDO QUE CAMBIA  -->
+
 <script src="../libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Footer -->
-<footer class="bg__rojo text-center pinkwhite-text">
+<footer class="text-center footer__container">
   <!-- Grid container -->
   <div class="container p-4">
 
@@ -366,7 +358,7 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="text-center p-3 footer__container__copyright">
     © 2020 Copyright:
     <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>

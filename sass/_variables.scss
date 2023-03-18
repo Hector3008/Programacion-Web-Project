@@ -1,6 +1,12 @@
+//====================================================================//
+//==========DEMOSTRACION DE HABILIDADES EN SCSS: VARIABLES============//
+//============FUNCIONES, MAPS, MIXING, NESTING, ETC, ETC==============//
+//====================================================================//
+
+
 //variables
 $shadow__1:rgba(0, 0, 0, 0.127);
-$shadow: rgba(0, 0, 0, 0.252);
+$shadow: linear-gradient(rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.000), rgba(0, 0, 0, 0.000), rgba(0, 0, 0, 0.200));
 //colores
 
 $color__1: rgb(255, 255, 255);
@@ -46,10 +52,39 @@ $value in $fonts {
 }
 //nesting
 
+.articulos {
+  color: red;
 
-//for
+  .container {
+    background-color: white;
 
-//titulos
+    .item {
+      margin: auto;
+
+      .imagen {
+        padding: auto;
+      }
+
+      .titulo {
+        display: flex;
+      }
+
+      .subtitulo {
+        text-decoration: none;
+      }
+
+      .texto {
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+/* demostración de habilidades con ciclos for */
+
+  /* titulos */
+
 @for $i from 1 through 6 {
   .title__#{$i} {
     //interpolacion
@@ -57,7 +92,10 @@ $value in $fonts {
     font-size: $i * 2rem;
   }
 }
-//subtitulos
+
+  /* subtitulos */
+
+
 @for $i from 1 through 6 {
   .subtitle__#{$i} {
     //interpolacion
@@ -85,14 +123,18 @@ $colors: (
   negro__4:$black__4,
   negro__5:$black__5,
 );
-//foreach con map
+
+
+  /* foreach con map*/
+
 @each $name,
 $color in $colors {
   .#{$name} {
     color: $color;
   }
 }
-//foreach con lista
+
+  /* foreach con lista */
 
 $lista__1: "blanco" $color__1, "amarillo" $color__2, "rojo" $color__3, "azul" $color__4;
 
@@ -102,10 +144,22 @@ $lista__1: "blanco" $color__1, "amarillo" $color__2, "rojo" $color__3, "azul" $c
   }
 }
 
-//funciones
+  /* funciones */
 @mixin box-modeling($width, $height, $margin, $padding) {
   width: $width;
   height: $height;
   margin: $margin;
   padding: $padding;
+}
+  /* include para funciones y extend para para clases*/
+.comentario__para__tutor {
+
+  @include box-modeling(400px, auto, auto, auto);
+  @extend .bg__blanco;
+  background-color: khaki;
+  border: solid black 1px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }

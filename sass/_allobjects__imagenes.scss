@@ -1,8 +1,13 @@
+/*=======================allobjects__imagenes===========================*/
+/*=======================allobjects__imagenes===========================*/
+/*=======================allobjects__imagenes===========================*/
+
+
 //.index__section__imagenes {background-color: $white__2;}
-.imagenesallo__main{background-color: $white__1;}
+//.imagenesallo__main{}
 
 //.index__section__imagenes:hover {background-color: $shadow;}
-.imagenesallo__main:hover{background-color: $shadow}
+//.imagenesallo__main:hover{background-color: $shadow}
 
 // .index__section__imagenes__container{}
 .imagenesallo__main__container{
@@ -20,15 +25,19 @@
 
 
 // .index__section__imagenes__grid__item {margin: 10px;}
-.imagenesallo__main__grid__item{padding-bottom: 10px;}
+.imagenesallo__main__grid__item{
+  @extend .index__section__imagenes__grid__item;
+   padding-bottom: 10px;}
+
 .imagenesallo__main__grid__item:hover{
-  background-color: $white__1;
+  background-color: $shadow;
   border-radius: 10px;
+  width: 103%
 }
 //.index__section__imagenes__grid__item__imagen {width: 100%;}
 .imagenesallo__main__grid__item__imagen{@extend.index__section__imagenes__grid__item__imagen;}
 
 //.index__section__imagenes__grid__item__imagen:hover {width: 101%;}
-.imagenesallo__main__grid__item__imagen:hover{width: 102%}
+
 
 //.imagenesallo__main__grid__item__leyenda{}

@@ -1,3 +1,7 @@
+/*=======================allobjects__noticias========================*/
+/*=======================allobjects__noticias========================*/
+/*=======================allobjects__noticias========================*/
+
 //noticiasallo__main{}
 
 .noticiasallo__main__container{
@@ -17,17 +21,16 @@
   .index__section__noticias__item;}
 
 .noticiasallo__main__grid__item:hover{
-  background-color: $white__1;
-  border-radius: 20px;
+  background-color: $shadow;
+  border-radius: 10px;
+
 }
 
 .noticiasallo__main__grid__item__imagen{
   @extend 
   .index__section__noticias__item__img;}
 
-.noticiasallo__main__grid__item__imagen:hover{
-  width: 101%;
-}
+//.noticiasallo__main__grid__item__imagen:hover{}
 //index__section__noticias__item__titulo
 //.noticiasallo__main__grid__item__titulo{@extend .index__section__noticias__item__titulo;}
 
@@ -35,6 +38,7 @@
 .noticiasallo__main__grid__item__subtitulo{
   padding-bottom: 20px;
 }
+
 
 //.ndex__section__noticias__item__subtitulo__vermas{}
 //.noticiasallo__main__grid__item__subtitulo__vermas{}

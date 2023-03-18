@@ -18,8 +18,9 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg__rojo" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar__container" id="navbar">
     <div class="container-fluid">
+
       <a class="navbar-brand" href="./index.html">
         <img class="navnar__logo" src="./static/bento/assets/icons/bentologo.png" alt="">
       </a>
@@ -33,26 +34,29 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-          <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__noticias">noticias</a>
+          <li class="nav-item navbar__item">
+            <a class="nav-link navbar__item" href="#index__section__noticias">noticias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text  navbar__item" href="#index__section__libros">libros</a>
+            <a class="nav-link  navbar__item" href="#index__section__libros">libros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text  navbar__item" href="#index__section__articulos">articulos</a>
+            <a class="nav-link  navbar__item" href="#index__section__articulos">articulos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./templates/nosotros.html">imagenes</a>
+            <a class="nav-link  navbar__item" href="./templates/nosotros.html">imagenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="./templates/nosotros.html">nosotros</a>
+            <a class="nav-link  navbar__item" href="./templates/benedicto.html">Benedicto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__testimonios">testimonios</a>
+            <a class="nav-link  navbar__item" href="./templates/nosotros.html">nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pinkwhite-text navbar__item" href="#index__section__contacto">contacto</a>
+            <a class="nav-link  navbar__item" href="#index__section__testimonios">testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  navbar__item" href="#index__section__contacto">contacto</a>
           </li>
         </ul>
       </div>
@@ -82,31 +86,40 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/slider__label__animateacolaborar.jpg"
-              class="d-block w-100" alt="...">
+
+          <a href="./templates/contacto.html"><div class="carousel-item active">
+          
+            <img class="index__section__principal__carousel__item__img"
+              src="./static/bento/assets/img/slider__label__animateacolaborar.jpg" class="d-block w-100" alt="...">
+          
             <div class="carousel-caption d-none d-md-block">
               <h5 class="index__section__principal__carousel__item__title display-2 titulo">¡Anímate a colaborar!</h5>
-              <p class="index__section__principal__carousel__item__subtitle subtitulo">Nuestra obra necesita muchas manos para lograr todo lo que nos proponemos. Unéte a nosotros y sé parte de esto.</p>
+              <p class="index__section__principal__carousel__item__subtitle subtitulo">Nuestra obra necesita muchas manos para
+                lograr todo lo que nos proponemos. Unéte a nosotros y sé parte de esto.</p>
+          
             </div>
-          </div>
-          <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/slider__label__quienessomos.jpg"
-              class="d-block w-100" alt="...">
+          </div></a>
+
+          <a href="./templates/nosotros.html"><div class="carousel-item active">
+            <img class="index__section__principal__carousel__item__img"
+              src="./static/bento/assets/img/slider__label__quienessomos.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="index__section__principal__carousel__item__title__negative display-2">¿Quienes somos nosotros?</h5>
-              <p class="index__section__principal__carousel__item__subtitle__negative">Conoce quienes somos y por qué nos dedicamos a este apostolado.</p>
+              <p class="index__section__principal__carousel__item__subtitle__negative">Conoce quienes somos y por qué nos
+                dedicamos a este apostolado.</p>
             </div>
-          </div>
-          <div class="carousel-item active">
-            <img class="index__section__principal__carousel__item__img" src="./static/bento/assets/img/slider__label__quienesbenedictoxvi.png"
-              class="d-block w-100" alt="...">
+          </div></a>
+          <a href="./templates/benedicto.html"><div class="carousel-item active">
+            <img class="index__section__principal__carousel__item__img"
+              src="./static/bento/assets/img/slider__label__quienesbenedictoxvi.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="index__section__principal__carousel__item__title display-2">¿Quién fue Benedicto XVI?</h5>
-              <p class="index__section__principal__carousel__item__subtitle">¿por qué es tan especial? Conoce el valor de su servicio en vida y el de su obra academica tan reconocida y respetada
-              por muchos.</p>
+              <p class="index__section__principal__carousel__item__subtitle">¿por qué es tan especial? Conoce el valor de su
+                servicio en vida y el de su obra academica tan reconocida y respetada
+                por muchos.</p>
             </div>
-          </div>
+          </div></a>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,23 +140,41 @@
       <h2 class="display-2 text-center index__section__noticias__titulo"> <a href="./templates/noticias.html">seccion de noticias </a> </h2>
 
       <div class="container index__section__noticias__container text-center">
-        <div class="row">
-          <div class="col-sm-6">
+
+        <div class="index__section__noticias__row row">
+
+          <div class="index__section__noticias__col col-sm-6">
+
             <div class="index__section__noticias__item">
+
               <img class="index__section__noticias__item__img" src="static/bento/assets/img/noticias/noticias__0001.jpeg" alt="defect__img__noticias">
+
               <h3  class="display-5 index__section__noticias__item__titulo">Benedicto XVI, dos libros para descubrir su gran humanidad</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Se presentaron los volúmenes publicados por la editorial San Pablo dedicados al Papa bávaro:... <a href="#">ver más</a></sub>
+
+              <sub class="lead index__section__noticias__item__subtitulo"> Se presentaron los volúmenes publicados por la editorial San Pablo dedicados al Papa bávaro:... <a href="https://www.vaticannews.va/es/vaticano/news/2023-02/benedicto-xvi-dos-libros-para-descubrir-su-gran-humanidad-2023.html
+">ver más</a></sub>
             </div>
+
           </div>
-          <div class="col-sm-6">
+
+          <div class="index__section__noticias__col col-sm-6">
+
             <div class="index__section__noticias__item">
+
               <img class="index__section__noticias__item__img" src="static/bento/assets/img/noticias/noticias__0002.jpeg" alt="defect__img__noticias">
+
               <h3 class="display-5 index__section__noticias__item__titulo">El funeral del papa Benedicto XVI, en imágenes</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> Las exequias, después de tres días de capilla ardiente, serán “solemnes” pero “sobrias”, por expreso deseo del difunto.... <a href="#">ver más</a></sub>
+
+              <sub class="lead index__section__noticias__item__subtitulo"> Las exequias, después de tres días de capilla ardiente, serán “solemnes” pero “sobrias”, por expreso deseo del difunto... <a href="https://elpais.com/internacional/2023-01-05/el-funeral-del-papa-benedicto-xvi-en-imagenes.html
+">ver más</a></sub>
+
             </div>
           </div>
         </div>
       </div>
+
+          <p class="display-6 text-center"> <a class="index__section__noticias__vermas" href="./templates/noticias.html">ver más
+              noticias</a></p>
 
     </section>
 
@@ -155,30 +186,54 @@
 
       <div class="index__section__libros__container container text-center">
         <div class="index__section__libros__grid__row row">
+
           <div class="index__section__librosgrid__col col-sm-4">
+
             <div class="index__section__libros__grid__item">
+
               <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/libros/libros__0001.jpg" alt="defect_img__libros">
+
               <h3 class="index__section__libros__grid__item__titulo display-6">Deus caritas est.</h3>
-              <sub class="lead index__section__libros__item__subtitulo"> celebre encíciclipa del santo padre sobre el amor cristiano... <a class="index__section__libros__item__subtitulo__vermas" href="#">ver más</a></sub>
+
+              <sub class="lead index__section__libros__item__subtitulo"> celebre encíciclipa del santo padre sobre el amor cristiano... <a class="index__section__libros__item__subtitulo__vermas" href="https://www.palabra.es/deus-caritas-est-0929.html
+">ver más</a></sub>
+
             </div>
+
           </div>
+
           <div class="index__section__librosgrid__col col-sm-4">
+
             <div class="index__section__libros__grid__item">
+
               <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/libros/libros__0002.jpg" alt="defect_img__libros">
+
               <h3 class="index__section__libros__grid__item__titulo display-6">Caritas in veritate.</h3>
-              <sub class="lead index__section__libros__item__subtitulo"> Sobre el desarrollo humano integral en la caridad y en la verdad... <a class="index__section__libros__item__vermas" href="#">ver más</a></sub>
-            </div>            
+
+              <sub class="lead index__section__libros__item__subtitulo"> Sobre el desarrollo humano integral en la caridad y en la verdad... <a class="index__section__libros__item__vermas" href="https://www.palabra.es/caritas-in-veritate-0319.html
+">ver más</a></sub>
+
+            </div>
+
           </div>
+
           <div class="index__section__librosgrid__col col-sm-4">
+
             <div class="index__section__libros__grid__item">
+
               <img class="index__section__libros__grid__item__imagen" src="./static/bento/assets/img/libros/libros__0003.jpg" alt="defect_img__libros">
+
               <h3 class="index__section__libros__grid__item__titulo display-6">Spe salvi.</h3>
-              <sub class="lead index__section__noticias__item__subtitulo"> celebre encícilica del santo padre sobre la esperanza cristiana... <a class="index__section__libros__item__vermas" href="#">ver más</a></sub>
+
+              <sub class="lead index__section__noticias__item__subtitulo"> celebre encícilica del santo padre sobre la esperanza cristiana... <a class="index__section__libros__item__vermas" href="https://www.palabra.es/spe-salvi-1085.html
+">ver más</a></sub>
+
             </div>
             
           </div>
         </div>
       </div>
+          <p class="display-6 text-center"> <a class="index__section__libros__vermas" href="./templates/libros.html">ver más libros</a></p>
 
     </section>
 
@@ -189,10 +244,42 @@
     <h2 class="display-2 index__section__testimonios__titulo text-center"> <a href="./templates/testimonios.html">seccion de testimonios</a> </h2>
 
     <div class="index__section__testimonios__container center">
-      <h3 class="index__section__testimonios__container__title display-5">titulo del testimonio: Lorem ipsum dolor sit amet.</h3>
-      <p class="index__section__testimonios__container__text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima quae saepe nobis praesentium tempora, minus ipsa modi dicta asperiores dolorem placeat impedit maiores consectetur temporibus laborum ipsam provident atque iure ad sit deserunt vel eligendi dignissimos? Delectus doloribus obcaecati mollitia quidem fugit est enim sunt libero. Qui temporibus laborum optio eveniet esse. Facere quidem officiis distinctio, recusandae iusto hic quasi odit ea quae molestiae dignissimos. Accusantium accusamus cupiditate necessitatibus labore. Modi, quis dolorem error magni dignissimos quo cupiditate tempora inventore tenetur quibusdam, doloremque explicabo mollitia accusantium consectetur similique aperiam minus corporis fugit ex esse itaque minima cumque maiores. Earum ea fuga sequi. Nobis quod vero eaque a expedita? Nostrum, hic ipsum? Minus exercitationem soluta quisquam unde, voluptates, qui repellat, at voluptatum assumenda nobis autem! Veritatis, minima eos officiis modi earum nam tenetur dolorem quas sint aliquam eligendi sit maiores assumenda nesciunt consequuntur! Blanditiis hic dignissimos fuga nulla, natus aperiam reiciendis omnis voluptas minima nobis eaque aliquid repellendus vero. Vitae eius itaque dicta fugit consectetur mollitia nostrum cumque obcaecati. Sit tempora, perspiciatis iste repellat laboriosam quam nihil veritatis assumenda molestiae ducimus atque quod ipsum perferendis non maiores adipisci iusto ea reiciendis. Iusto nam neque deleniti fuga laborum nostrum ex in! Excepturi tempora odit voluptatibus neque voluptas consectetur consequatur, possimus aut delectus. Rerum iste earum nihil! Dolorum sequi reprehenderit doloremque blanditiis pariatur exercitationem, dicta natus enim repellat quibusdam labore corporis id corrupti iusto? Debitis ab quisquam doloribus nemo earum ipsam facere accusamus corrupti a ipsa cum delectus et molestias aut, velit nulla modi dicta adipisci quo praesentium rem obcaecati. Atque, dolor mollitia obcaecati rerum facilis commodi fugiat aut maxime earum natus. Minima dolor quis nostrum nesciunt! Odio inventore vel praesentium explicabo beatae libero consectetur error nostrum, eius nisi aut quam porro fugit exercitationem hic alias consequuntur in quis quaerat dolor! Autem quaerat dicta distinctio fugit cumque sequi? Id minima consectetur ducimus? Suscipit aspernatur voluptatum nihil corrupti animi corporis temporibus odio numquam officia cumque ea mollitia qui eos, maiores iure, placeat id molestiae totam ad quae natus quisquam delectus perspiciatis illum. Eaque tempore vel vero doloribus earum magni optio accusantium iste aliquam!</p>
-      <sub class="index__section__testimonios__container__date lead"> <i>where/mm/yy</i> </sub>
+      <h3 class="index__section__testimonios__container__title display-5">Peter Srsich, Arquidiócesis de Denver.</h3>
+      <div class="index__section__testimonios__container__text lead">
+        
+        <p>A través del relato del presbítero Peter Srsich, de la Arquidiócesis de Denver, se conoció una llamativa faceta de Joseph Ratzinger, a quien le atribuyen "el milagro" de haber sanado un tumor tras colocar su mano derecha sobre el pecho del enfermo que se acercó para recibir su bendición.</p>
+
+        <p>“Tuve como 30 segundos o un minuto para hablar con él, así que le dije lo básico de mi historia: ‘tenía cáncer, quería ser sacerdote. ¿Me puede dar su bendición?’”, detalló Peter Srsich al Denver Catholic en 2021.</p>
+
+        <p>“Me dio su bendición. Fue un gran regalo poder conocer al Santo Padre, estrechar su mano y recibir su bendición. Fue una poderosa experiencia conocer al Papa”, observó el Padre Srsich.</p>
+
+        <p>El problema de salud había sido detectado en 2011, cuando los médicos descubrieron "un tumor del tamaño de una pelota de béisbol (...) sentado en mi pecho entre la caja torácica y los pulmones, y en realidad colapsó mi pulmón izquierdo y estaba presionando mi corazón"., recordó Srsich, el sacerdote que protagonizó "el milagro".</p>
+
+        <p>“Finalmente descubrimos que era un linfoma no Hodgkin en etapa cuatro, que era un tumor, y luego algunos otros tumores en el sistema sanguíneo en sí eran la célula cancerosa”, explicó el sacerdote.</p>
+
+        <p>Entonces el joven de 16 años comenzó a recibir sesiones de quimioterapia y rayos. “El cáncer realmente no me afectó mucho, pero la quimioterapia fue lo que me derribó y me golpeó”, recordó.</p>
+        
+        <p>Sin embargo, el futuro sacerdote no perdió la fe y comunicó su deseo a la fundación Make a Wish: quería conocer en persona al Santo Padre.</p>
+
+        <p>El encuentro milagroso se produjo en junio de 2012, durante una audiencia general del Papa Benedicto XVI en la Plaza de
+        San Pedro en el Vaticano.</p>
+
+        <p>“Tuve como 30 segundos o un minuto para hablar con él, así que le dije lo básico de mi historia: ‘tenía cáncer, quería ser sacerdote. ¿Me puede dar su bendición?’”, resumió el presbítero de la Arquidiócesis de Denver.</p>
+
+        <p>“Me dio su bendición. Fue un gran regalo poder conocer al Santo Padre, estrechar su mano y recibir su bendición. Fue una poderosa experiencia conocer al Papa”, agregó Srsich.</p>
+
+        <p>Fue entonces cuando Benedicto XVI lo bendijo, mientras apoyaba su mano derecha en el pecho del joven, justo encima de donde estaba ubicado el tumor.</p>
+
+        <p>La salud de Srsich fue mejorando, hasta que se recompuso por completo, ingresó al Seminario St. John Vianney. Sus días más dramáticos quedaron atrás y pudo desarrollar su vocación: fue ordenado diácono en febrero de 2020 y sacerdote al año siguiente.</p>
+
+        <p>“Es una gran vida ser sacerdote”, concluyó el P. Srsich. “Todas las pruebas, todos los sufrimientos valieron la pena”.</p>
+
+      </div>
+
+      <sub class="index__section__testimonios__container__date lead"> <i>Denver/2012</i> </sub>
     </div>
+
+    <p class="display-6 text-center"> <a class="index__section__testimonios__vermas " href="./templates/testimonios.html">ver más testimonios</a></p>
     
     </section>
 
@@ -203,36 +290,68 @@
     <h2 class="display-2 index__section__imagenes__titulo text-center"> <a href="templates/imagenes.html">seccion de imagenes</a> </h2>
 
       <div class="index__section__imagenes__container container text-center">
-        <div class="row">
-          <div class="col-sm-4 index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0001.jpg" alt="ratzingerjoven">
+
+        <div class="row index__section__imagenes__grid__row">
+
+          <div class="col-sm-4 index__section__imagenes__grid__col">
+
+            <div class="index__section__imagenes__grid__item" >
+              <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0001.jpg"
+              alt="ratzingerjoven">
+            </div>
+
           </div>
-          <div class="col-sm-4 index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0002.jpg"
-              alt="">
+
+          <div class="col-sm-4 index__section__imagenes__grid__col">
+
+            <div class="index__section__imagenes__grid__item">
+              <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0002.jpg"
+                alt="ratzingerjoven">
+            </div>
+
           </div>
-          <div class="col-sm-4 index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0003.jpeg"
-              alt="">
+
+          <div class="col-sm-4 index__section__imagenes__grid__col">
+          
+            <div class="index__section__imagenes__grid__item">
+              <img class="index__section__imagenes__grid__item__imagen"
+                src="./static/bento/assets/img/imagenes/imagenes__0003.jpeg" alt="ratzinger y JPII">
+            </div>
+          
           </div>
+
         </div>
 
-        <div class="row">
-          <div class="col-sm-4 index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0004.jpeg"
-              alt="">
+        <div class="row index__section__imagenes__grid__row">
+          <div class="col-sm-4 index__section__imagenes__grid__col">
+
+            <div class="index__section__imagenes__grid__item">
+              <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0004.jpeg"
+                alt="ratzinger saludando un gato">
+            </div>
+
           </div>
-          <div class="col-sm-4 index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0005.png"
-              alt="">
+          <div class="col-sm-4 index__section__imagenes__grid__col">
+          
+            <div class="index__section__imagenes__grid__item">
+              <img class="index__section__imagenes__grid__item__imagen"
+                src="./static/bento/assets/img/imagenes/imagenes__0005.png" alt="ratzinger celebrando misa">
+            </div>
+          
           </div>
-          <div class="col-sm-4 index__section__imagenes__grid__item">
-            <img class="index__section__imagenes__grid__item__imagen" src="./static/bento/assets/img/imagenes/imagenes__0006.jpeg"
-              alt="">
+
+          <div class="col-sm-4 index__section__imagenes__grid__col">
+          
+            <div class="index__section__imagenes__grid__item">
+              <img class="index__section__imagenes__grid__item__imagen"
+                src="./static/bento/assets/img/imagenes/imagenes__0006.jpeg" alt="ratzinger y francisco">
+            </div>
+          
           </div>
         </div>
       </div>
-      
+
+          <p class="display-6 text-center"> <a class="index__section__testimonios__vermas " href="./templates/imagenes.html">ver más imagenes</a></p>
     
     </section>
 
@@ -245,43 +364,71 @@
       <div>
 
         <div class="index__section__articulos__container container text-center">
+
           <div class="row index__section__grid__col">
+
             <div class="col-sm-4  index__section__grid__col">
+
               <div class="index__section__articulos__item">
+
                 <img class="index__section__articulos__item__imagen" src="./static/bento/assets/img/articulos/articulos__0001.jpeg"
                 alt="defect_img__articulos">
+
               <h3 class="index__section__articulos__item__titulo display-6"> Benedicto XVI sabía dónde encontrar el sentido.</h3>
+
               <p class="index__section__articulos__item__texto lead">¿Qué es lo que más busca nuestra sociedad adicta a las pantallas?
                 El Papa Benedicto XVI sabía dónde encontrarlo y dedicó
-                su sacerdocio a mostrarnos el camino. <a class="index__section__articulos__item__texto__vermas" href="#">ver
-                  más...</a></p></div>             
+                su sacerdocio a mostrarnos el camino. <a class="index__section__articulos__item__texto__vermas" href="https://www.catholic.com/magazine/online-edition/benedict-xvi-knew-where-to-find-meaning
+">ver
+                  más...</a></p></div>  
+
             </div>
             <div class="col-sm-4  index__section__grid__col">
+
               <div class="index__section__articulos__item">
+
                 <img class="index__section__articulos__item__imagen" src="./static/bento/assets/img/articulos/articulos__0002.jpg"
                   alt="defect_img__articulos">
+
                 <h3 class="index__section__articulos__item__titulo display-6"> La futura santidad de Benedicto XVI.</h3>
+
                 <p class="index__section__articulos__item__texto lead">Un día, dentro del próximo siglo, Benedicto XVI será declarado santo. Precisamente qué tan pronto sucederá esto es
-                incierto, pero sucederá. <a class="index__section__articulos__item__texto__vermas" href="#">ver
+                incierto, pero sucederá. <a class="index__section__articulos__item__texto__vermas" href="https://www.catholic.com/magazine/online-edition/the-future-sainthood-of-benedict-xvi
+">ver
                     más...</a></p>
               </div>
+
             </div>
+
             <div class="col-sm-4  index__section__grid__col">
+
               <div class="index__section__articulos__item">
+
                 <img class="index__section__articulos__item__imagen" src="./static/bento/assets/img/articulos/articulos__0003.jpeg"
                   alt="defect_img__articulos">
+
                 <h3 class="index__section__articulos__item__titulo display-6"> ¿Cómo percibe Benedicto XVI el Concilio Vaticano II?</h3>
-                <p class="index__section__articulos__item__texto lead">En la recepción del Concilio, ¿qué se ha hecho bien?, ¿qué ha sido insuficiente o equivocado?, ¿qué queda aún por hacer? <a class="index__section__articulos__item__texto__vermas" href="#">ver
-                    más...</a></p>
+
+                <p class="index__section__articulos__item__texto lead">En la recepción del Concilio, ¿qué se ha hecho bien?, ¿qué ha sido insuficiente o equivocado?, ¿qué queda aún por hacer? <a class="index__section__articulos__item__texto__vermas" href="http://es.catholic.net/op/articulos/4530/cat/164/como-percibe-benedicto-xvi-el-concilio-vaticano-ii.html
+">ver
+                    más...</a>
+                  </p>
+                  
               </div>
             </div>
           </div>
         </div>
 
-
         
       </div>
- 
+
+    <p class="display-6 text-center"> <a class="index__section__testimonios__vermas "
+        href="./templates/articulos.html">ver más articulos</a> </p>
+        
+        <!-- sin este Br me salta un error -->
+        <br>
+
+    
     </section>
 
     <!-- contacto -->
@@ -294,11 +441,11 @@
         <div class="row">
           <div class="col">
             <div class="mb-3">
-              <label for="index__section__contacto__item__form exampleFormControlInput1" class="form-label">Email address</label>
+              <label for="index__section__contacto__item__form exampleFormControlInput1" class="form-label">correo electrónico:</label>
               <input type="email" class="index__section__contacto__item__input__email form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="index__section__contacto__item__input__textarea form-label">Example textarea</label>
+              <label for="exampleFormControlTextarea1" class="index__section__contacto__item__input__textarea form-label">texto del mensaje</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </div>
@@ -316,7 +463,7 @@
 <script src="./libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Footer -->
-<footer class="bg__rojo text-center pinkwhite-text">
+<footer class="text-center footer__container">
   <!-- Grid container -->
   <div class="container p-4">
 
@@ -421,7 +568,7 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="text-center p-3 footer__container__copyright">
     © 2020 Copyright:
     <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
